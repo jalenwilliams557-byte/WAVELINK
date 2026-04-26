@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1200">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: #F5F0E8;
+    font-family: Georgia, serif;
+    display: flex;
+  }
+
+  /* Left panel */
+  .left {
+    flex: 1;
+    padding: 64px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Subtle grain overlay */
+  .left::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 44px;
+  }
+  .logo-text {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #1A1A1A;
+  }
+
+  .badge {
+    display: inline-block;
+    background: #FEE8E3;
+    color: #C84B31;
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.06;
+    letter-spacing: -0.03em;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+  }
+  h1 em { font-style: italic; color: #C84B31; }
+
+  .sub {
+    font-size: 16px;
+    font-weight: 300;
+    color: #6B6560;
+    line-height: 1.75;
+    max-width: 360px;
+    margin-bottom: 36px;
+    font-family: system-ui, sans-serif;
+  }
+
+  .platforms {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .plat {
+    font-family: system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 100px;
+    border: 1px solid #E2DDD6;
+    color: #1A1A1A;
+    background: #fff;
+  }
+
+  /* Right panel — dark dashboard preview */
+  .right {
+    width: 480px;
+    background: #111;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 60% 40%, rgba(200,75,49,0.18) 0%, transparent 70%);
+  }
+
+  .dash-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 24px 28px;
+    width: 340px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .dash-label {
+    font-family: system-ui, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 16px;
+  }
+
+  .stat-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+  .stat-row:last-child { border-bottom: none; }
+
+  .stat-plat {
+    font-family: system-ui, sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,0.6);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .stat-val {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  /* Bar chart mini */
+  .mini-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    height: 48px;
+    margin-top: 18px;
+  }
+  .mini-bar { background: rgba(200,75,49,0.5); border-radius: 3px 3px 0 0; flex: 1; }
+
+  /* Wave watermark */
+  .wave-bg {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.06;
+  }
+</style>
+</head>
+<body>
+
+<div class="left">
+  <div class="logo-row">
+    <svg width="28" height="20" viewBox="0 0 28 20" fill="none">
+      <path d="M2 10 Q5 4 8 10 Q11 16 14 10 Q17 4 20 10 Q23 16 26 10"
+            stroke="#C84B31" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+    </svg>
+    <span class="logo-text">WAVELINK</span>
+  </div>
+
+  <div class="badge">Artist Intelligence Platform</div>
+
+  <h1>Every stream<br>tells a <em>story.</em></h1>
+
+  <p class="sub">Paste any artist link and see exactly where your audience lives — across every platform, in seconds.</p>
+
+  <div class="platforms">
+    <span class="plat" style="color:#1DB954">Spotify</span>
+    <span class="plat" style="color:#FF0000">YouTube</span>
+    <span class="plat" style="color:#D51007">Last.fm</span>
+    <span class="plat" style="color:#A238FF">Deezer</span>
+    <span class="plat" style="color:#FFA200">Audiomack</span>
+    <span class="plat" style="color:#FF5500">SoundCloud</span>
+    <span class="plat" style="color:#010101">TikTok</span>
+    <span class="plat" style="color:#E1306C">Instagram</span>
+  </div>
+</div>
+
+<div class="right">
+  <div class="dash-card">
+    <div class="dash-label">Live Platform Report</div>
+
+    <div class="stat-row">
+      <span class="stat-plat"><span class="dot" style="background:#1DB954"></span>Spotify</span>
+      <span class="stat-val">4.2M listeners</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-plat"><span class="dot" style="background:#FF0000"></span>YouTube</span>
+      <span class="stat-val">891K subs</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-plat"><span class="dot" style="background:#D51007"></span>Last.fm</span>
+      <span class="stat-val">12.4M scrobbles</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-plat"><span class="dot" style="background:#E1306C"></span>Instagram</span>
+      <span class="stat-val">238K followers</span>
+    </div>
+    <div class="stat-row">
+      <span class="stat-plat"><span class="dot" style="background:#010101"></span>TikTok</span>
+      <span class="stat-val">1.1M followers</span>
+    </div>
+
+    <div class="mini-bars">
+      <div class="mini-bar" style="height:80%"></div>
+      <div class="mini-bar" style="height:50%"></div>
+      <div class="mini-bar" style="height:95%"></div>
+      <div class="mini-bar" style="height:65%"></div>
+      <div class="mini-bar" style="height:40%"></div>
+      <div class="mini-bar" style="height:70%"></div>
+      <div class="mini-bar" style="height:85%"></div>
+    </div>
+  </div>
+
+  <svg class="wave-bg" width="200" height="120" viewBox="0 0 200 120" fill="none">
+    <path d="M0 60 Q25 20 50 60 Q75 100 100 60 Q125 20 150 60 Q175 100 200 60"
+          stroke="white" stroke-width="4" fill="none"/>
+  </svg>
+</div>
+
+</body>
+</html>

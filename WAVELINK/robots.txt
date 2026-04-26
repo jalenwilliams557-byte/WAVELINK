@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block non-essential paths
+Disallow: /api/
+Disallow: /cdn-cgi/
+
+# Point crawlers to sitemap
+Sitemap: https://wavelinkstudio.online/sitemap.xml
+
+# Crawl delay for polite crawlers
+Crawl-delay: 10
