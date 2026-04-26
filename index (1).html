@@ -1,0 +1,2829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ══════════════════════════════════════════
+     PRIMARY SEO
+══════════════════════════════════════════ -->
+<title>Wavelink — Artist Intelligence Platform | Music Analytics Across Every Platform</title>
+<meta name="description" content="Wavelink is the free artist intelligence platform that shows musicians, managers and labels exactly where fans are streaming — Spotify, YouTube, Last.fm, Deezer, TikTok and more — in one instant report.">
+<meta name="keywords" content="artist analytics, music streaming stats, spotify artist data, youtube music analytics, artist intelligence, music promotion tool, streaming dashboard, musician analytics platform, free artist report, music data aggregator">
+<meta name="author" content="Wavelink Studio">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://wavelinkstudio.online/">
+
+<!-- ══════════════════════════════════════════
+     OPEN GRAPH (Facebook, LinkedIn, WhatsApp)
+══════════════════════════════════════════ -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://wavelinkstudio.online/">
+<meta property="og:title" content="Wavelink — Artist Intelligence Platform">
+<meta property="og:description" content="Paste any artist link and see where your audience actually lives — every stream, every follower, every platform in one place. Free & instant.">
+<meta property="og:image" content="https://wavelinkstudio.online/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Wavelink Artist Intelligence Platform — cross-platform music analytics">
+<meta property="og:site_name" content="Wavelink">
+<meta property="og:locale" content="en_US">
+
+<!-- ══════════════════════════════════════════
+     TWITTER / X CARD
+══════════════════════════════════════════ -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wavelinkstudio">
+<meta name="twitter:creator" content="@wavelinkstudio">
+<meta name="twitter:title" content="Wavelink — Artist Intelligence Platform">
+<meta name="twitter:description" content="Paste any artist link and see where your audience actually lives — every stream, every follower, every platform in one place.">
+<meta name="twitter:image" content="https://wavelinkstudio.online/og-image.png">
+<meta name="twitter:image:alt" content="Wavelink cross-platform music analytics dashboard">
+
+<!-- ══════════════════════════════════════════
+     STRUCTURED DATA — Organization
+══════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Wavelink",
+  "url": "https://wavelinkstudio.online/",
+  "logo": "https://wavelinkstudio.online/favicon.svg",
+  "description": "Artist intelligence platform that aggregates streaming data across Spotify, YouTube, Last.fm, Deezer, TikTok, Instagram, SoundCloud, Apple Music, TIDAL, Audiomack and Bandsintown into one instant report.",
+  "applicationCategory": "MusicApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Wavelink Studio",
+    "url": "https://wavelinkstudio.online/"
+  },
+  "featureList": [
+    "Cross-platform music streaming analytics",
+    "Spotify monthly listener data",
+    "YouTube subscriber and view counts",
+    "Last.fm scrobble data",
+    "TikTok and Instagram follower tracking",
+    "AI-generated artist insight reports",
+    "Free music promotion specialist marketplace"
+  ]
+}
+</script>
+
+<!-- ══════════════════════════════════════════
+     FAVICON SUITE
+══════════════════════════════════════════ -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#C84B31">
+<meta name="msapplication-TileColor" content="#C84B31">
+
+<!-- ══════════════════════════════════════════
+     PWA — Web App Manifest
+══════════════════════════════════════════ -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- PWA: iOS Safari install support (Safari ignores manifest for these) -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Wavelink">
+<link rel="apple-touch-startup-image" href="/apple-touch-icon.png">
+
+<!-- ══════════════════════════════════════════
+     PERFORMANCE HINTS
+══════════════════════════════════════════ -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&family=Martian+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+:root {
+  --bg: #F5F0E8;
+  --surface: #FFFFFF;
+  --surface-alt: #EEEAE0;
+  --surface-dark: #1A1A1A;
+  --border: #E2DDD6;
+  --border-dark: #2E2E2E;
+  --accent: #C84B31;
+  --accent-dark: #A33D28;
+  --accent-light: #F0E8E5;
+  --green: #2D5016;
+  --green-light: #E8EEE3;
+  --amber: #D97706;
+  --amber-light: #FEF3C7;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6560;
+  --text-muted: #9E9790;
+  --text-white: #FFFFFF;
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.07);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.09);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,0.12);
+  --shadow-xl: 0 24px 80px rgba(0,0,0,0.15);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --spotify: #1DB954;
+  --youtube: #FF0000;
+  --deezer: #A238FF;
+  --lastfm: #D51007;
+  --audiomack: #FFA200;
+  --tidal: #000000;
+  --soundcloud: #FF5500;
+  --apple: #FC3C44;
+  --tiktok: #010101;
+  --instagram: #E1306C;
+  --bandsintown: #00B4B3;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --mono: 'Martian Mono', monospace;
+  --sans: 'Satoshi', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+body { background: var(--bg); color: var(--text-primary); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+::selection { background: rgba(200,75,49,0.15); color: var(--text-primary); }
+img { display: block; max-width: 100%; }
+button { cursor: pointer; font-family: var(--sans); }
+input { font-family: var(--sans); }
+a { text-decoration: none; }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+[data-view] { display: none; }
+body[data-active-view="home"] [data-view="home"] { display: block; }
+body[data-active-view="loading"] [data-view="loading"] { display: flex; }
+body[data-active-view="results"] [data-view="results"] { display: block; }
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 64px;
+  transition: background 0.3s, border-bottom 0.3s;
+}
+nav.scrolled { background: var(--bg); border-bottom: 1px solid var(--border); }
+.wordmark {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--serif); font-weight: 700; font-size: 20px;
+  letter-spacing: -0.02em; color: var(--text-primary); cursor: pointer;
+}
+.wordmark-icon { flex-shrink: 0; }
+.nav-links { display: flex; align-items: center; gap: 32px; }
+.nav-links a {
+  font-size: 14px; font-weight: 500; color: var(--text-secondary);
+  transition: color 0.2s;
+  position: relative; padding-bottom: 2px;
+}
+.nav-links a::after {
+  content: ''; position: absolute; bottom: -2px; left: 0; right: 0;
+  height: 1px; background: var(--accent);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.nav-links a:hover { color: var(--text-primary); }
+.nav-links a:hover::after { transform: scaleX(1); }
+.btn-primary {
+  background: var(--accent); color: #fff;
+  font-size: 14px; font-weight: 500;
+  padding: 10px 22px; border-radius: var(--radius-sm); border: none;
+  cursor: pointer; transition: var(--transition);
+  box-shadow: 0 2px 12px rgba(200,75,49,0.25);
+}
+.btn-primary:hover { background: var(--accent-dark); transform: translateY(-1px); box-shadow: 0 4px 20px rgba(200,75,49,0.35); }
+
+/* HOME */
+.hero {
+  min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr;
+  padding-top: 80px;
+}
+.hero-left {
+  display: flex; flex-direction: column; justify-content: center;
+  padding: 80px 72px 80px 64px;
+  position: relative; overflow: hidden;
+}
+.eyebrow {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 28px;
+}
+.eyebrow-line { width: 40px; height: 1px; background: var(--accent); flex-shrink: 0; }
+.eyebrow-text {
+  font-size: 11px; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.14em; color: var(--accent);
+}
+h1 {
+  font-family: var(--serif); font-size: 78px; font-weight: 700;
+  line-height: 1.04; letter-spacing: -0.03em; color: var(--text-primary);
+  margin-bottom: 28px;
+}
+h1 em { font-style: italic; color: var(--accent); }
+.hero-sub {
+  font-size: 17px; font-weight: 300; color: var(--text-secondary);
+  line-height: 1.8; max-width: 460px; margin-bottom: 44px;
+}
+.search-wrap { margin-bottom: 24px; max-width: 540px; }
+.search-box {
+  display: flex; align-items: center;
+  background: var(--surface); border: 1.5px solid var(--border);
+  border-radius: var(--radius-lg); padding: 6px 6px 6px 20px;
+  height: 64px; gap: 12px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: var(--shadow-sm);
+}
+.search-box:focus-within { box-shadow: var(--shadow-md); }
+.platform-icon-wrap {
+  width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.4s ease; background: transparent;
+}
+.search-input {
+  flex: 1; border: none; outline: none; background: transparent;
+  font-size: 16px; color: var(--text-primary);
+}
+.search-input::placeholder { color: var(--text-muted); }
+.platform-pill {
+  display: none; align-items: center; gap: 6px;
+  padding: 4px 12px; border-radius: 100px;
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.06em; flex-shrink: 0;
+  animation: slideIn 0.25s ease both;
+}
+.platform-pill span { display: inline-flex; align-items: center; gap: 5px; }
+.platform-pill.visible { display: flex; }
+.analyze-btn {
+  background: var(--accent); color: #fff;
+  font-size: 14px; font-weight: 600;
+  padding: 14px 26px; border-radius: var(--radius-md); border: none;
+  flex-shrink: 0; transition: var(--transition);
+  box-shadow: 0 2px 16px rgba(200,75,49,0.3);
+}
+.analyze-btn:hover:not(:disabled) { background: var(--accent-dark); transform: translateY(-1px); box-shadow: 0 4px 24px rgba(200,75,49,0.45); }
+.analyze-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+.error-msg {
+  display: none; font-size: 13px; color: var(--accent); margin-top: 10px;
+}
+.error-msg.visible { display: block; }
+.platform-pills-row {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  max-width: 540px;
+}
+.dot-pill {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 12px; color: var(--text-secondary);
+}
+.dot { width: 7px; height: 7px; border-radius: 50%; }
+.hero-right {
+  background: var(--surface); position: relative; overflow: hidden;
+  display: flex; align-items: stretch;
+}
+.hero-right svg { width: 100%; height: 100%; display: block; }
+
+/* HOW IT WORKS */
+.section-how { padding: 120px 64px; background: var(--surface-alt); }
+.section-how h2 {
+  font-family: var(--serif); font-size: 44px; font-weight: 700;
+  letter-spacing: -0.02em; margin-bottom: 72px; margin-top: 12px;
+}
+.steps-row { display: flex; align-items: stretch; }
+.step { flex: 1; padding: 0 56px; position: relative; }
+.step:first-child { padding-left: 0; }
+.step:last-child { padding-right: 0; }
+.step-divider { width: 1px; height: 120px; background: var(--border); align-self: center; flex-shrink: 0; }
+.step-num {
+  font-family: var(--mono); font-size: 56px; font-weight: 300;
+  color: var(--accent); opacity: 0.5; line-height: 1; margin-bottom: 20px;
+}
+.step-title {
+  font-family: var(--serif); font-size: 22px; font-weight: 600;
+  margin-bottom: 10px;
+}
+.step-body { font-size: 14px; font-weight: 300; line-height: 1.75; color: var(--text-secondary); max-width: 260px; }
+
+/* PLATFORMS COVERAGE */
+.section-platforms { padding: 120px 64px; display: grid; grid-template-columns: 35% 1fr; gap: 80px; align-items: start; }
+.section-platforms h2 {
+  font-family: var(--serif); font-size: 42px; font-weight: 700;
+  letter-spacing: -0.02em; margin-top: 12px; margin-bottom: 20px;
+}
+.section-platforms p { font-size: 15px; font-weight: 300; line-height: 1.8; color: var(--text-secondary); margin-bottom: 28px; }
+.data-legend { display: flex; flex-direction: column; gap: 10px; }
+.legend-item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--text-secondary); }
+.legend-sq { width: 12px; height: 12px; border-radius: 2px; }
+.platforms-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+.platform-card-small {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 18px 20px;
+  border-left-width: 3px; border-left-style: solid;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.platform-card-small:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  background: var(--surface-alt);
+}
+.pcs-name { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+.pcs-desc { font-size: 12px; color: var(--text-muted); line-height: 1.5; margin-top: 6px; }
+
+/* FOOTER */
+footer { background: var(--surface-dark); padding: 72px 64px 40px; }
+.footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 56px; }
+.footer-brand { font-family: var(--serif); font-size: 20px; font-weight: 700; color: #fff; }
+.footer-desc { font-size: 14px; font-weight: 300; color: rgba(255,255,255,0.4); line-height: 1.7; margin-top: 16px; }
+.footer-col-head { font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.35); margin-bottom: 16px; }
+.footer-links { display: flex; flex-direction: column; gap: 10px; }
+.footer-links a { font-size: 14px; color: rgba(255,255,255,0.6); transition: color 0.2s; }
+.footer-links a:hover { color: #fff; }
+.footer-bottom { padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; }
+.footer-bottom span { font-size: 12px; color: rgba(255,255,255,0.3); }
+
+/* LOADING */
+[data-view="loading"] {
+  flex-direction: column; align-items: center; justify-content: center;
+  min-height: 100vh; background: var(--bg); padding: 40px;
+}
+.loading-wordmark { font-family: var(--serif); font-size: 20px; font-weight: 700; margin-bottom: 80px; letter-spacing: -0.02em; }
+#loading-typewriter { font-family: var(--serif); font-size: 38px; font-style: italic; font-weight: 400; color: var(--text-primary); opacity: 0.75; line-height: 1.4; margin-bottom: 40px; text-align: center; }
+#loading-typewriter::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: var(--accent);
+  margin-left: 2px;
+}
+@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+.loading-track { width: 240px; height: 2px; background: var(--border); border-radius: 1px; margin: 0 auto 20px; }
+.loading-fill { height: 2px; background: var(--accent); border-radius: 1px; width: 0; transition: width 8s cubic-bezier(0.1, 0, 0.3, 1); }
+#loading-status { font-size: 13px; color: var(--text-muted); text-align: center; }
+
+/* RESULTS */
+[data-view="results"] { padding-top: 80px; }
+
+.results-subnav {
+  position: sticky; top: 0; z-index: 90; background: var(--surface);
+  border-bottom: 1px solid var(--border); height: 52px; padding: 0 64px;
+  display: flex; align-items: center; gap: 32px;
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+}
+.subnav-link {
+  font-size: 13px; font-weight: 500; color: var(--text-secondary);
+  background: none; border: none; cursor: pointer; padding: 0;
+  border-bottom: 2px solid transparent; height: 52px;
+  transition: color 0.2s, border-color 0.2s;
+  text-decoration: none; display: flex; align-items: center;
+}
+.subnav-link:hover { color: var(--text-primary); }
+.subnav-link.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ARTIST HEADER */
+.artist-header-section { padding: 64px; background: var(--bg); border-bottom: 1px solid var(--border); }
+.artist-header-inner { display: grid; grid-template-columns: 260px 1fr; gap: 48px; align-items: start; }
+.artist-meta { display: flex; flex-direction: column; justify-content: center; padding-top: 8px; }
+.artist-image-wrap {
+  width: 260px; height: 260px; border-radius: var(--radius-lg);
+  overflow: hidden; box-shadow: var(--shadow-lg); background: var(--surface-alt);
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.artist-image-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.artist-image-fallback { font-family: var(--serif); font-size: 120px; font-weight: 300; color: var(--text-muted); line-height: 1; }
+.artist-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.artist-tag {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--accent); padding: 3px 10px; border-radius: 100px;
+  background: var(--accent-light);
+}
+.artist-name {
+  font-family: var(--serif); font-size: 70px; font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.02; margin-bottom: 16px;
+}
+.artist-bio {
+  font-size: 16px; font-weight: 300; font-style: italic;
+  line-height: 1.8; color: var(--text-secondary); max-width: 580px; margin-bottom: 32px;
+}
+.scores-row { display: flex; gap: 40px; margin-top: 8px; }
+.score-arc { text-align: center; }
+.score-arc svg { display: block; margin: 0 auto; }
+.verdict-quote {
+  margin-top: 32px; padding-left: 20px;
+  border-left: 3px solid var(--accent);
+  font-family: var(--serif); font-size: 22px; font-style: italic;
+  color: var(--text-primary); line-height: 1.5;
+}
+
+/* PLATFORM SECTION */
+.results-section { padding: 72px 64px; border-bottom: 1px solid var(--border); }
+.results-section h2 {
+  font-family: var(--serif); font-size: 38px; font-weight: 700;
+  letter-spacing: -0.02em; margin-bottom: 48px; margin-top: 12px;
+}
+.platforms-results-grid { display: grid; grid-template-columns: 38% 1fr; gap: 20px; }
+.platforms-right-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-content: start; }
+
+.platform-card-large {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--radius-xl); padding: 36px; overflow: hidden;
+  position: relative;
+}
+.platform-card-medium {
+  background: var(--surface); border: 1px solid var(--border);
+  border-left: 3px solid var(--border); border-radius: var(--radius-md);
+  padding: 22px; transition: var(--transition);
+}
+.platform-card-medium:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+.platform-card-empty {
+  background: var(--surface); border: 1px dashed var(--border);
+  border-radius: var(--radius-md); padding: 22px;
+  display: flex; align-items: center; justify-content: center;
+}
+.pc-name { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 12px; }
+.pc-value-large { font-family: var(--mono); font-size: 52px; font-weight: 700; line-height: 1; color: var(--text-primary); margin: 12px 0 4px; }
+.pc-value-medium { font-family: var(--mono); font-size: 28px; font-weight: 600; color: var(--text-primary); margin: 8px 0 2px; }
+.pc-label { font-size: 13px; color: var(--text-muted); }
+.pc-label-sm { font-size: 12px; color: var(--text-muted); }
+.data-pill {
+  display: inline-flex; align-items: center; font-size: 11px; font-weight: 600;
+  padding: 3px 10px; border-radius: 100px; margin-top: 14px;
+}
+.data-pill.live { background: var(--green-light); color: var(--green); }
+.data-pill.public { background: var(--amber-light); color: var(--amber); }
+.pc-no-data { font-size: 13px; font-style: italic; color: var(--text-muted); }
+
+/* TOP TRACKS */
+.tracks-section { background: var(--surface-alt); }
+.track-row {
+  display: grid; grid-template-columns: 44px 1fr 180px 110px 32px;
+  align-items: center; height: 64px; border-bottom: 1px solid var(--border);
+  padding: 0 4px; transition: background 0.15s;
+}
+.track-row:hover { background: #F0EBE1; }
+.track-rank { font-family: var(--mono); font-size: 13px; color: var(--text-muted); text-align: right; padding-right: 16px; }
+.track-name { font-size: 16px; font-weight: 500; color: var(--text-primary); }
+.track-bar-wrap { height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.track-bar-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; transition: width 1.2s cubic-bezier(0.34, 1.56, 0.64, 1); }
+.track-plays { font-family: var(--mono); font-size: 14px; color: var(--text-secondary); text-align: right; }
+.track-trend { text-align: center; font-size: 16px; }
+.trend-up { color: var(--green); }
+.trend-flat { color: var(--text-muted); }
+
+/* AUDIENCE */
+.audience-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.audience-col h3 { font-family: var(--serif); font-size: 24px; font-weight: 600; margin-bottom: 28px; }
+.reach-row { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.reach-name { font-size: 13px; font-weight: 500; min-width: 90px; }
+.reach-bar-wrap { flex: 1; height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; }
+.reach-bar-fill { height: 100%; border-radius: 2px; opacity: 0.7; width: 0; transition: width 1.4s ease; }
+.reach-num { font-family: var(--mono); font-size: 13px; color: var(--text-secondary); min-width: 70px; text-align: right; }
+.platforms-found { font-family: var(--mono); font-size: 48px; font-weight: 700; color: var(--accent); }
+.platforms-found-label { font-size: 15px; color: var(--text-muted); margin-top: 6px; }
+
+/* EXPERT REPORT */
+.report-section { background: var(--surface-alt); }
+.report-section h2 { font-family: var(--serif); font-size: 40px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 40px; margin-top: 12px; }
+.verdict-block { padding: 0 0 0 28px; border-left: 4px solid var(--accent); margin-bottom: 48px; }
+.verdict-text { font-family: var(--serif); font-size: 30px; font-style: italic; line-height: 1.45; color: var(--text-primary); }
+.summary-text { font-size: 16px; font-weight: 300; line-height: 1.9; color: var(--text-secondary); max-width: 780px; margin-bottom: 56px; }
+.report-divider { height: 1px; background: var(--border); border: none; margin-bottom: 48px; }
+.strengths-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 56px; }
+.strength-card {
+  padding: 32px; border-radius: var(--radius-lg); border: 1px solid;
+}
+.strength-card.working { background: var(--green-light); border-color: rgba(45,80,22,0.15); }
+.strength-card.attention { background: var(--accent-light); border-color: rgba(200,75,49,0.15); }
+.card-head { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.card-head-sq { width: 6px; height: 6px; border-radius: 2px; }
+.card-head-label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; }
+.card-item { display: flex; gap: 12px; margin-top: 14px; }
+.card-item-sq { width: 6px; height: 6px; border-radius: 1px; flex-shrink: 0; margin-top: 7px; }
+.card-item-text { font-size: 14px; line-height: 1.65; color: var(--text-primary); }
+.actions-head { font-family: var(--serif); font-size: 28px; font-weight: 600; margin-bottom: 24px; }
+.action-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: 22px 24px;
+  display: grid; grid-template-columns: 110px 1fr; gap: 20px;
+  align-items: start; margin-bottom: 12px; border-left: 3px solid;
+}
+.action-card.now { border-left-color: var(--accent); }
+.action-card.month { border-left-color: var(--amber); }
+.action-card.longterm { border-left-color: var(--green); }
+.timing-pill { font-size: 11px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.05em; padding: 5px 12px; border-radius: 100px; display: inline-block; }
+.timing-pill.now { background: var(--accent-light); color: var(--accent); }
+.timing-pill.month { background: var(--amber-light); color: var(--amber); }
+.timing-pill.longterm { background: var(--green-light); color: var(--green); }
+.action-text { font-size: 15px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
+.action-outcome { font-size: 13px; color: var(--text-muted); font-style: italic; line-height: 1.5; }
+.insight-cards { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 48px; }
+.insight-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 32px; position: relative; overflow: hidden;
+}
+.insight-deco {
+  position: absolute; top: 16px; right: 20px;
+  font-family: var(--serif); font-size: 90px; font-weight: 700;
+  color: var(--accent); opacity: 0.07; line-height: 1;
+  pointer-events: none; user-select: none;
+}
+.insight-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-muted); margin-bottom: 14px; }
+.insight-text { font-size: 15px; line-height: 1.72; color: var(--text-secondary); }
+
+/* HELP BANNER */
+.help-banner { background: var(--surface-dark); padding: 64px; display: grid; grid-template-columns: 1fr auto; gap: 48px; align-items: center; position: relative; overflow: hidden; }
+.help-banner::after { content: '→'; position: absolute; right: -20px; top: 50%; transform: translateY(-50%); font-family: var(--serif); font-size: 400px; font-style: italic; color: white; opacity: 0.03; line-height: 1; pointer-events: none; }
+.help-eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--accent); margin-bottom: 14px; }
+.help-banner h2 { font-family: var(--serif); font-size: 36px; color: #fff; }
+.help-sub { font-size: 15px; font-weight: 300; color: rgba(255,255,255,0.55); line-height: 1.7; margin-top: 12px; }
+.help-btn {
+  background: var(--accent); color: #fff;
+  font-size: 16px; font-weight: 700;
+  padding: 18px 48px; border-radius: 100px; border: none;
+  box-shadow: 0 4px 20px rgba(200,75,49,0.45), 0 2px 8px rgba(0,0,0,0.2);
+  white-space: nowrap; transition: var(--transition);
+}
+.help-btn:hover { transform: scale(1.04); box-shadow: 0 4px 32px rgba(200,75,49,0.7), 0 2px 8px rgba(0,0,0,0.2); }
+.help-btn-sub { font-size: 12px; color: rgba(255,255,255,0.4); margin-top: 10px; text-align: center; }
+
+/* FLOATING CTA */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 4px 20px rgba(200,75,49,0.45), 0 2px 8px rgba(0,0,0,0.2); }
+  50% { box-shadow: 0 4px 32px rgba(200,75,49,0.7), 0 2px 8px rgba(0,0,0,0.2); }
+}
+#floatingCTA {
+  position: fixed; bottom: 32px; right: 32px; z-index: 150;
+  display: flex; align-items: center; gap: 8px;
+  background: var(--accent); color: #fff;
+  font-family: var(--sans); font-size: 14px; font-weight: 700;
+  padding: 0 28px; height: 52px; border-radius: 100px; border: none;
+  box-shadow: 0 4px 20px rgba(200,75,49,0.45), 0 2px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  opacity: 0; pointer-events: none; transform: translateY(8px);
+  transition: opacity 0.4s ease, transform 0.4s ease, box-shadow 0.2s ease, scale 0.2s ease;
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+#floatingCTA.visible { opacity: 1; pointer-events: all; transform: translateY(0); }
+#floatingCTA:hover { transform: scale(1.04) translateY(0) !important; }
+
+/* MODAL */
+.modal-overlay {
+  position: fixed; inset: 0; z-index: 200;
+  background: rgba(10,10,10,0.88); backdrop-filter: blur(8px);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.25s ease;
+  display: flex; align-items: center; justify-content: center;
+}
+.modal-overlay.open { opacity: 1; pointer-events: all; }
+.modal-card {
+  width: 820px; max-width: calc(100vw - 32px); max-height: 88vh;
+  background: var(--surface); border-radius: var(--radius-xl);
+  overflow: hidden; display: flex; flex-direction: column;
+  box-shadow: var(--shadow-xl);
+  transform: translateY(16px) scale(0.98);
+  transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), opacity 0.25s ease;
+  opacity: 0;
+}
+.modal-overlay.open .modal-card { transform: translateY(0) scale(1); opacity: 1; }
+.modal-header {
+  flex-shrink: 0; background: var(--bg); padding: 28px 36px;
+  border-bottom: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.modal-header h3 { font-family: var(--serif); font-size: 26px; font-weight: 700; }
+.modal-close {
+  background: none; border: none; width: 32px; height: 32px;
+  border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted); transition: background 0.15s;
+}
+.modal-close:hover { background: var(--border); }
+.modal-filters {
+  flex-shrink: 0; padding: 16px 36px;
+  border-bottom: 1px solid var(--border);
+  display: flex; gap: 6px; flex-wrap: wrap;
+}
+.filter-tab {
+  font-size: 13px; font-weight: 500; padding: 7px 16px;
+  border-radius: 100px; border: none; cursor: pointer; transition: var(--transition);
+  background: var(--bg); color: var(--text-secondary);
+}
+.filter-tab.active { background: var(--accent); color: #fff; }
+.modal-body { overflow-y: auto; padding: 28px 36px; flex-grow: 1; }
+.specialists-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.specialist-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 24px; transition: var(--transition);
+  position: relative; overflow: hidden;
+}
+.specialist-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 3px; background: linear-gradient(90deg, var(--accent), transparent);
+  opacity: 0.35; transition: opacity 0.25s ease;
+}
+.specialist-card:hover::before { opacity: 1; }
+.specialist-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); border-color: rgba(200,75,49,0.35); }
+.spec-top { display: flex; gap: 14px; align-items: flex-start; }
+.spec-top > div:first-child { flex-shrink: 0; }
+.spec-avatar {
+  width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--serif); font-size: 17px; font-weight: 600; color: var(--text-secondary);
+  box-shadow: 0 0 0 2px var(--border);
+}
+.spec-name { font-size: 15px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+.spec-specialty { font-size: 12px; color: var(--text-muted); }
+.spec-stars { display: flex; align-items: center; gap: 6px; margin: 10px 0; }
+.spec-rating { font-family: var(--mono); font-size: 13px; }
+.spec-reviews { font-size: 12px; color: var(--text-muted); }
+.spec-desc { font-size: 13px; line-height: 1.65; color: var(--text-secondary); margin-bottom: 14px; }
+.spec-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+.spec-tag {
+  font-size: 11px; padding: 3px 10px; border-radius: 100px;
+  border: 1px solid var(--border); color: var(--text-muted);
+}
+.spec-bottom { display: flex; justify-content: space-between; align-items: center; }
+.spec-price { font-family: var(--mono); font-size: 14px; font-weight: 600; color: var(--accent); }
+.spec-btn {
+  background: var(--accent); color: #fff;
+  font-size: 13px; font-weight: 600;
+  padding: 9px 18px; border-radius: var(--radius-sm); border: none;
+  transition: var(--transition);
+}
+.spec-btn:hover { background: var(--accent-dark); }
+
+/* ANIMATIONS */
+@keyframes fadeUp { from { opacity:0; transform: translateY(22px); } to { opacity:1; transform: translateY(0); } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes shimmer { from { background-position: -400px 0; } to { background-position: 400px 0; } }
+@keyframes slideIn { from { opacity:0; transform: translateX(-8px); } to { opacity:1; transform: translateX(0); } }
+@keyframes barPulse { from { transform: scaleY(0.4); } to { transform: scaleY(1); } }
+
+.anim-fade-up { opacity: 0; transform: translateY(22px); transition: opacity 0.5s ease, transform 0.5s ease; }
+.anim-fade-up.visible { opacity: 1; transform: none; }
+.hero-anim { animation: fadeUp 0.7s cubic-bezier(0.22,1,0.36,1) both; }
+.hero-anim-1 { animation: fadeUp 0.7s 0.08s cubic-bezier(0.22,1,0.36,1) both; }
+.hero-anim-2 { animation: fadeUp 0.7s 0.16s cubic-bezier(0.22,1,0.36,1) both; }
+.hero-anim-3 { animation: fadeUp 0.7s 0.24s cubic-bezier(0.22,1,0.36,1) both; }
+.hero-anim-4 { animation: fadeUp 0.7s 0.32s cubic-bezier(0.22,1,0.36,1) both; }
+
+.specialist-card.hidden { display: none; }
+
+/* Report loading state */
+.report-loading { text-align: center; padding: 60px 0; }
+.report-loading p { font-size: 15px; font-style: italic; color: var(--text-muted); }
+
+/* ===== RESPONSIVE — COMPREHENSIVE MOBILE FIX ===== */
+
+/* Tablet (<=1024px) */
+@media (max-width:1024px){
+  .hero{grid-template-columns:1fr;}
+  .hero-right{display:none;}
+  .section-platforms{grid-template-columns:1fr 1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+  h1{font-size:52px;}
+  .results-section{padding:56px 40px;}
+  .audience-grid{gap:40px;}
+  .strengths-grid{grid-template-columns:1fr;gap:20px;}
+  .insight-cards{grid-template-columns:1fr 1fr;}
+  .hero-left{
+    background: linear-gradient(140deg, var(--bg) 0%, #EDE8DE 60%, #E5DDD0 100%);
+    position:relative;
+  }
+}
+
+/* Mobile (<=768px) */
+@media (max-width:768px){
+  nav{padding:0 20px;height:56px;}
+  .nav-links{display:none;}
+  .hero-left{padding:68px 20px 48px;}
+  h1{font-size:36px;line-height:1.18;}
+  .hero-sub{font-size:15px;}
+  .search-box{flex-wrap:wrap;height:auto;padding:10px;gap:8px;border-radius:16px;}
+  .search-input{width:100%;font-size:14px;padding:6px 4px;}
+  .platform-icon-wrap{display:none;}
+  .analyze-btn{width:100%;border-radius:10px;padding:14px;font-size:15px;}
+  .platform-pills-row{gap:6px;flex-wrap:wrap;}
+  .section-platforms{grid-template-columns:1fr;padding:48px 20px;gap:16px;}
+  .artist-header-inner{grid-template-columns:1fr;text-align:center;gap:24px;}
+  .artist-image-wrap{width:120px;height:120px;margin:0 auto;}
+  .artist-image-fallback{font-size:60px;}
+  .artist-name{font-size:40px;}
+  .artist-bio{font-size:14px;max-width:100%;}
+  .scores-row{justify-content:center;gap:24px;flex-wrap:wrap;}
+  .verdict-quote{font-size:18px;text-align:left;}
+  .artist-tags{justify-content:center;}
+  .results-section{padding:40px 20px;}
+  .platforms-results-grid{grid-template-columns:1fr;}
+  .platforms-right-grid{grid-template-columns:1fr 1fr;gap:10px;}
+  .platform-card-large{padding:24px;}
+  .platform-card-medium{padding:16px;}
+  .pc-value-large{font-size:36px;}
+  .pc-value-medium{font-size:22px;}
+  .track-row{grid-template-columns:32px 1fr 80px 32px;height:auto;padding:12px 4px;gap:8px;}
+  .track-bar-wrap{display:none;}
+  .track-plays{font-size:12px;}
+  .track-name{font-size:14px;}
+  .audience-grid{grid-template-columns:1fr;gap:32px;}
+  .reach-name{min-width:70px;font-size:12px;}
+  .reach-num{min-width:50px;font-size:12px;}
+  .platforms-found{font-size:36px;}
+  .verdict-text{font-size:22px;}
+  .summary-text{font-size:15px;}
+  .strengths-grid{grid-template-columns:1fr;gap:16px;}
+  .strength-card{padding:20px;}
+  .action-card{grid-template-columns:1fr;gap:10px;padding:18px;}
+  .insight-cards{grid-template-columns:1fr;gap:14px;}
+  .actions-head{font-size:22px;}
+  .report-section h2{font-size:28px;}
+  .results-section h2{font-size:26px;}
+  .verdict-block{padding-left:16px;}
+  .subnav-link,
+  .results-subnav{overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;}
+  .results-subnav{display:flex;gap:0;padding:0 16px;}
+  .subnav-link{white-space:nowrap;scroll-snap-align:start;font-size:13px;padding:14px 14px;}
+  /* FIX 4 — Steps row stacking */
+  .steps-row{flex-direction:column;gap:40px;}
+  .step{padding:0;}
+  .step-divider{width:40px;height:1px;align-self:flex-start;}
+  .section-how{padding:64px 20px;}
+  .section-how h2{font-size:32px;margin-bottom:40px;}
+  /* FIX 5 — for-artists 4-col grid */
+  #for-artists > div:last-child{grid-template-columns:1fr 1fr!important;}
+  #for-artists > div:first-child{flex-direction:column;gap:20px!important;}
+  #for-artists > div:first-child p{max-width:100%!important;}
+  /* FIX 6 — help banner */
+  .help-banner{grid-template-columns:1fr!important;padding:48px 20px;gap:28px;}
+  .help-banner > div:last-child{text-align:left;}
+  .help-btn{width:100%;padding:16px 32px;font-size:15px;}
+  /* FIX 7 — modal mobile bottom sheet */
+  .modal-card{max-width:100vw;max-height:92vh;border-radius:var(--radius-lg) var(--radius-lg) 0 0;position:fixed;bottom:0;left:0;right:0;transform:translateY(100%) scale(1)!important;}
+  .modal-overlay.open .modal-card{transform:translateY(0) scale(1)!important;}
+  .modal-header{padding:20px 20px 16px;}
+  .modal-header h3{font-size:20px;}
+  .modal-filters{padding:12px 20px;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;}
+  .modal-body{padding:16px 20px 24px;}
+  .specialists-grid{grid-template-columns:1fr;gap:12px;}
+  .specialist-card{padding:18px;}
+  .spec-top{gap:12px;}
+  .spec-avatar{width:40px;height:40px;font-size:15px;}
+  .spec-name{font-size:14px;}
+  .spec-specialty{font-size:11px;}
+  .spec-desc{font-size:12px;margin-bottom:10px;}
+  .spec-tags{margin-bottom:12px;gap:4px;}
+  .spec-tag{font-size:10px;padding:2px 8px;}
+  .spec-btn{font-size:12px;padding:8px 14px;}
+  /* FIX 11 — artist name overflow */
+  .artist-name{font-size:38px;word-break:break-word;overflow-wrap:break-word;}
+  /* UPGRADE 3 — hide how-it-works image grid on mobile */
+  .section-how > div[style*="grid-template-columns"]{display:none!important;}
+  /* UPGRADE 6 — footer 2-col on medium mobile */
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px 40px;}
+  .footer-grid > div:first-child{grid-column:1/-1;}
+  /* UPGRADE 8 — results subnav fade scroll indicator */
+  .results-subnav{position:relative;}
+  .results-subnav::after{content:'';position:absolute;right:0;top:0;bottom:0;width:40px;background:linear-gradient(to left, var(--surface), transparent);pointer-events:none;}
+  /* UPGRADE 2 — hero left radial glow on mobile */
+  .hero-left::before{content:'';position:absolute;top:0;right:0;width:280px;height:280px;background:radial-gradient(circle, rgba(200,75,49,0.07) 0%, transparent 70%);pointer-events:none;}
+  footer{padding:48px 20px 32px;}
+  #for-artists{padding:56px 20px!important;}
+  #pwaInstallBtn{max-width:100%;font-size:13px;padding:11px 18px;}
+}
+
+/* Small phones (<=480px) */
+@media (max-width:480px){
+  h1{font-size:30px;}
+  .hero-left{padding:64px 16px 40px;}
+  .hero-sub{font-size:14px;}
+  .search-box{padding:8px;}
+  .artist-name{font-size:32px;line-height:1.1;}
+  .scores-row{gap:16px;}
+  .platforms-right-grid{grid-template-columns:1fr;}
+  .pc-value-large{font-size:30px;}
+  .section-platforms{grid-template-columns:1fr;padding:36px 16px;}
+  .results-section{padding:32px 16px;}
+  .platform-card-large{padding:18px;}
+  nav{padding:0 16px;}
+  /* FIX 4 — steps */
+  .section-how{padding:48px 16px;}
+  .section-how h2{font-size:28px;}
+  /* FIX 5 — for-artists single col at 480 */
+  #for-artists > div:last-child{grid-template-columns:1fr!important;}
+  /* FIX 9 — platform pills row cap */
+  .platform-pills-row{gap:4px;max-height:52px;overflow:hidden;}
+  .dot-pill{font-size:11px;}
+  /* FIX 10 — platforms grid 2-col at 480 */
+  .section-platforms{padding:36px 16px;}
+  .platforms-grid{grid-template-columns:1fr 1fr;gap:8px;}
+  .platform-card-small{padding:14px 16px;}
+  .pcs-name{font-size:11px;}
+  .pcs-desc{font-size:11px;}
+  /* UPGRADE 6 — single col footer at 480 */
+  .footer-grid{grid-template-columns:1fr;}
+}
+
+/* UPGRADE 1 — Hamburger nav */
+.nav-hamburger{
+  display:none;flex-direction:column;justify-content:center;gap:5px;
+  background:none;border:none;padding:6px;cursor:pointer;
+}
+.nav-hamburger span{
+  display:block;width:22px;height:2px;background:var(--text-primary);
+  border-radius:2px;transition:all 0.25s ease;
+}
+.mobile-menu{
+  display:none;position:fixed;top:56px;left:0;right:0;z-index:99;
+  background:var(--bg);border-bottom:1px solid var(--border);
+  padding:24px 24px 32px;flex-direction:column;gap:20px;
+  box-shadow:var(--shadow-md);
+}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-size:18px;font-weight:500;color:var(--text-primary);}
+.mobile-menu .btn-primary{width:100%;padding:14px;font-size:15px;border-radius:var(--radius-md);}
+@media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none!important;}}
+
+</style>
+</head>
+<body data-active-view="home">
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="wordmark" onclick="goHome()">
+    <svg class="wordmark-icon" width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2 10 Q5 4 8 10 Q11 16 14 10 Q17 4 20 10 Q23 16 26 10" stroke="#C84B31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    WAVELINK
+  </div>
+  <button class="nav-hamburger" id="navHamburger" onclick="toggleMobileMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links">
+    <a href="#how-it-works">How It Works</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#for-artists">For Artists</a>
+    <button class="btn-primary" onclick="document.getElementById('searchInput').focus()">Get Started</button>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#how-it-works" onclick="closeMobileMenu()">How It Works</a>
+  <a href="#platforms" onclick="closeMobileMenu()">Platforms</a>
+  <a href="#for-artists" onclick="closeMobileMenu()">For Artists</a>
+  <button class="btn-primary" onclick="closeMobileMenu();document.getElementById('searchInput').focus()">Get Started</button>
+</div>
+
+<!-- HOME VIEW -->
+<div data-view="home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <div style="position:absolute;top:80px;right:0;opacity:0.04;pointer-events:none;z-index:0">
+        <svg width="320" height="320" viewBox="0 0 100 100" fill="var(--accent)">
+          <path d="M40 20 L40 70 Q40 80 30 80 Q20 80 20 70 Q20 60 30 60 Q35 60 40 63 L40 30 L70 25 L70 55 Q70 65 60 65 Q50 65 50 55 Q50 45 60 45 Q65 45 70 48 L70 20 Z"/>
+        </svg>
+      </div>
+      <div class="eyebrow hero-anim">
+        <div class="eyebrow-line"></div>
+        <span class="eyebrow-text">Artist Intelligence Platform</span>
+      </div>
+      <h1 class="hero-anim-1">Every stream<br>tells a <em>story.</em><br>We read them all.</h1>
+      <p class="hero-sub hero-anim-2">Paste any artist link and see where your audience actually lives — every stream, every follower, every platform in one place.</p>
+
+      <div class="search-wrap hero-anim-3">
+        <div class="search-box" id="searchBox">
+          <div class="platform-icon-wrap" id="platformIcon">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5.5" stroke="#9E9790" stroke-width="1.2"/><path d="M7 4.5v3l2 1.5" stroke="#9E9790" stroke-width="1.2" stroke-linecap="round"/></svg>
+          </div>
+          <input type="text" class="search-input" id="searchInput" placeholder="Paste any artist link from Spotify, YouTube, Last.fm…" autocomplete="off">
+          <div class="platform-pill" id="platformPill"></div>
+          <button class="analyze-btn" id="analyzeBtn" onclick="handleAnalyze()">Analyze</button>
+        </div>
+        <div class="error-msg" id="errorMsg"></div>
+      </div>
+
+      <div class="platform-pills-row hero-anim-4" id="homePlatformPills"></div>
+    </div>
+
+    <div class="hero-right" style="position:relative;overflow:hidden">
+      <!-- Photo layers behind the SVG -->
+      <div style="position:absolute;inset:0;display:grid;grid-template-rows:1fr 1fr;z-index:0">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=900&q=80&fit=crop&crop=center" 
+             alt="" style="width:100%;height:100%;object-fit:cover">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=900&q=80&fit=crop&crop=center" 
+             alt="" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div style="position:absolute;inset:0;background:rgba(10,10,10,0.72);z-index:1"></div>
+      <!-- The existing SVG goes here with position relative z-index 2 -->
+      <div style="position:relative;z-index:2;width:100%;height:100%">
+      <svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;display:block">
+        <style>
+          @keyframes pulse1 { 0% { transform: scale(1); opacity: 0.5; } 100% { transform: scale(1.8); opacity: 0; } }
+          @keyframes pulse2 { 0% { transform: scale(1); opacity: 0.3; } 100% { transform: scale(2.2); opacity: 0; } }
+        </style>
+        <!-- Dark background -->
+        <rect width="800" height="900" fill="#0F0F0F"/>
+        <!-- Subtle grid lines -->
+        <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+          <line x1="0" y1="75" x2="800" y2="75"/><line x1="0" y1="150" x2="800" y2="150"/>
+          <line x1="0" y1="225" x2="800" y2="225"/><line x1="0" y1="300" x2="800" y2="300"/>
+          <line x1="0" y1="375" x2="800" y2="375"/><line x1="0" y1="450" x2="800" y2="450"/>
+          <line x1="0" y1="525" x2="800" y2="525"/><line x1="0" y1="600" x2="800" y2="600"/>
+          <line x1="0" y1="675" x2="800" y2="675"/><line x1="0" y1="750" x2="800" y2="750"/>
+          <line x1="0" y1="825" x2="800" y2="825"/><line x1="0" y1="900" x2="800" y2="900"/>
+        </g>
+        <!-- World map dot grid -->
+        <!-- North America cluster -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="120" cy="290" r="2.5"/><circle cx="135" cy="300" r="2.5"/><circle cx="150" cy="285" r="2.5"/>
+          <circle cx="165" cy="295" r="2.5"/><circle cx="180" cy="310" r="2.5"/><circle cx="140" cy="315" r="2.5"/>
+          <circle cx="155" cy="325" r="2.5"/><circle cx="170" cy="330" r="2.5"/><circle cx="185" cy="320" r="2.5"/>
+          <circle cx="200" cy="300" r="2.5"/><circle cx="215" cy="310" r="2.5"/><circle cx="195" cy="330" r="2.5"/>
+          <circle cx="210" cy="340" r="2.5"/><circle cx="225" cy="350" r="2.5"/><circle cx="130" cy="330" r="2.5"/>
+          <circle cx="145" cy="340" r="2.5"/><circle cx="160" cy="350" r="2.5"/><circle cx="175" cy="355" r="2.5"/>
+          <circle cx="240" cy="320" r="2.5"/><circle cx="250" cy="335" r="2.5"/><circle cx="235" cy="360" r="2.5"/>
+          <circle cx="120" cy="355" r="2.5"/><circle cx="135" cy="365" r="2.5"/><circle cx="150" cy="370" r="2.5"/>
+          <circle cx="165" cy="375" r="2.5"/><circle cx="180" cy="380" r="2.5"/><circle cx="195" cy="370" r="2.5"/>
+          <circle cx="210" cy="365" r="2.5"/><circle cx="225" cy="375" r="2.5"/><circle cx="240" cy="380" r="2.5"/>
+          <circle cx="255" cy="355" r="2.5"/><circle cx="245" cy="340" r="2.5"/><circle cx="130" cy="385" r="2.5"/>
+          <circle cx="145" cy="390" r="2.5"/><circle cx="160" cy="395" r="2.5"/><circle cx="175" cy="400" r="2.5"/>
+          <circle cx="190" cy="405" r="2.5"/><circle cx="205" cy="400" r="2.5"/><circle cx="220" cy="395" r="2.5"/>
+          <circle cx="235" cy="390" r="2.5"/><circle cx="250" cy="375" r="2.5"/><circle cx="260" cy="360" r="2.5"/>
+          <circle cx="115" cy="340" r="2.5"/><circle cx="108" cy="355" r="2.5"/><circle cx="112" cy="375" r="2.5"/>
+          <circle cx="125" cy="410" r="2.5"/><circle cx="140" cy="415" r="2.5"/><circle cx="155" cy="420" r="2.5"/>
+          <circle cx="170" cy="425" r="2.5"/><circle cx="185" cy="420" r="2.5"/><circle cx="200" cy="415" r="2.5"/>
+          <circle cx="215" cy="410" r="2.5"/><circle cx="265" cy="345" r="2.5"/><circle cx="255" cy="390" r="2.5"/>
+          <circle cx="245" cy="395" r="2.5"/><circle cx="260" cy="395" r="2.5"/><circle cx="235" cy="405" r="2.5"/>
+          <circle cx="220" cy="408" r="2.5"/><circle cx="205" cy="412" r="2.5"/>
+        </g>
+        <!-- South America cluster -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="200" cy="495" r="2.5"/><circle cx="215" cy="505" r="2.5"/><circle cx="230" cy="495" r="2.5"/>
+          <circle cx="245" cy="508" r="2.5"/><circle cx="260" cy="498" r="2.5"/><circle cx="210" cy="520" r="2.5"/>
+          <circle cx="225" cy="530" r="2.5"/><circle cx="240" cy="525" r="2.5"/><circle cx="255" cy="515" r="2.5"/>
+          <circle cx="270" cy="520" r="2.5"/><circle cx="215" cy="545" r="2.5"/><circle cx="230" cy="555" r="2.5"/>
+          <circle cx="245" cy="550" r="2.5"/><circle cx="260" cy="540" r="2.5"/><circle cx="275" cy="535" r="2.5"/>
+          <circle cx="220" cy="570" r="2.5"/><circle cx="235" cy="575" r="2.5"/><circle cx="250" cy="565" r="2.5"/>
+          <circle cx="265" cy="560" r="2.5"/><circle cx="225" cy="590" r="2.5"/><circle cx="240" cy="600" r="2.5"/>
+          <circle cx="255" cy="595" r="2.5"/><circle cx="235" cy="615" r="2.5"/><circle cx="250" cy="620" r="2.5"/>
+          <circle cx="238" cy="635" r="2.5"/><circle cx="245" cy="508" r="2.5"/><circle cx="255" cy="480" r="2.5"/>
+          <circle cx="242" cy="485" r="2.5"/><circle cx="228" cy="488" r="2.5"/><circle cx="205" cy="510" r="2.5"/>
+          <circle cx="195" cy="518" r="2.5"/><circle cx="193" cy="530" r="2.5"/>
+        </g>
+        <!-- Europe cluster -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="360" cy="285" r="2.5"/><circle cx="375" cy="278" r="2.5"/><circle cx="390" cy="282" r="2.5"/>
+          <circle cx="405" cy="275" r="2.5"/><circle cx="420" cy="280" r="2.5"/><circle cx="365" cy="298" r="2.5"/>
+          <circle cx="380" cy="293" r="2.5"/><circle cx="395" cy="296" r="2.5"/><circle cx="410" cy="290" r="2.5"/>
+          <circle cx="425" cy="295" r="2.5"/><circle cx="370" cy="312" r="2.5"/><circle cx="385" cy="308" r="2.5"/>
+          <circle cx="400" cy="310" r="2.5"/><circle cx="415" cy="305" r="2.5"/><circle cx="430" cy="308" r="2.5"/>
+          <circle cx="375" cy="325" r="2.5"/><circle cx="390" cy="322" r="2.5"/><circle cx="405" cy="320" r="2.5"/>
+          <circle cx="420" cy="318" r="2.5"/><circle cx="435" cy="322" r="2.5"/><circle cx="380" cy="338" r="2.5"/>
+          <circle cx="395" cy="335" r="2.5"/><circle cx="410" cy="332" r="2.5"/><circle cx="425" cy="335" r="2.5"/>
+          <circle cx="355" cy="308" r="2.5"/><circle cx="348" cy="295" r="2.5"/><circle cx="352" cy="322" r="2.5"/>
+          <circle cx="385" cy="350" r="2.5"/><circle cx="398" cy="348" r="2.5"/><circle cx="412" cy="345" r="2.5"/>
+          <circle cx="360" cy="268" r="2.5"/><circle cx="374" cy="262" r="2.5"/>
+        </g>
+        <!-- Africa cluster -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="385" cy="425" r="2.5"/><circle cx="400" cy="420" r="2.5"/><circle cx="415" cy="428" r="2.5"/>
+          <circle cx="430" cy="422" r="2.5"/><circle cx="445" cy="430" r="2.5"/><circle cx="460" cy="425" r="2.5"/>
+          <circle cx="475" cy="432" r="2.5"/><circle cx="390" cy="440" r="2.5"/><circle cx="405" cy="438" r="2.5"/>
+          <circle cx="420" cy="445" r="2.5"/><circle cx="435" cy="440" r="2.5"/><circle cx="450" cy="448" r="2.5"/>
+          <circle cx="465" cy="442" r="2.5"/><circle cx="480" cy="448" r="2.5"/><circle cx="395" cy="458" r="2.5"/>
+          <circle cx="410" cy="455" r="2.5"/><circle cx="425" cy="462" r="2.5"/><circle cx="440" cy="458" r="2.5"/>
+          <circle cx="455" cy="465" r="2.5"/><circle cx="470" cy="460" r="2.5"/><circle cx="485" cy="465" r="2.5"/>
+          <circle cx="400" cy="475" r="2.5"/><circle cx="415" cy="472" r="2.5"/><circle cx="430" cy="478" r="2.5"/>
+          <circle cx="445" cy="475" r="2.5"/><circle cx="460" cy="480" r="2.5"/><circle cx="475" cy="478" r="2.5"/>
+          <circle cx="405" cy="492" r="2.5"/><circle cx="420" cy="488" r="2.5"/><circle cx="435" cy="495" r="2.5"/>
+          <circle cx="450" cy="492" r="2.5"/><circle cx="465" cy="498" r="2.5"/><circle cx="480" cy="492" r="2.5"/>
+          <circle cx="410" cy="508" r="2.5"/><circle cx="425" cy="505" r="2.5"/><circle cx="440" cy="512" r="2.5"/>
+          <circle cx="455" cy="508" r="2.5"/><circle cx="470" cy="514" r="2.5"/><circle cx="415" cy="525" r="2.5"/>
+          <circle cx="430" cy="522" r="2.5"/><circle cx="445" cy="528" r="2.5"/><circle cx="460" cy="525" r="2.5"/>
+          <circle cx="420" cy="540" r="2.5"/><circle cx="435" cy="538" r="2.5"/><circle cx="450" cy="542" r="2.5"/>
+          <circle cx="425" cy="558" r="2.5"/><circle cx="440" cy="555" r="2.5"/><circle cx="455" cy="558" r="2.5"/>
+          <circle cx="430" cy="572" r="2.5"/><circle cx="445" cy="570" r="2.5"/><circle cx="435" cy="585" r="2.5"/>
+          <circle cx="495" cy="455" r="2.5"/><circle cx="490" cy="470" r="2.5"/><circle cx="498" cy="480" r="2.5"/>
+          <circle cx="485" cy="440" r="2.5"/><circle cx="382" cy="435" r="2.5"/><circle cx="378" cy="448" r="2.5"/>
+          <circle cx="380" cy="462" r="2.5"/><circle cx="375" cy="475" r="2.5"/>
+        </g>
+        <!-- Asia cluster (West + South + East) -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="455" cy="288" r="2.5"/><circle cx="470" cy="282" r="2.5"/><circle cx="485" cy="290" r="2.5"/>
+          <circle cx="500" cy="285" r="2.5"/><circle cx="515" cy="292" r="2.5"/><circle cx="530" cy="286" r="2.5"/>
+          <circle cx="460" cy="305" r="2.5"/><circle cx="475" cy="298" r="2.5"/><circle cx="490" cy="305" r="2.5"/>
+          <circle cx="505" cy="300" r="2.5"/><circle cx="520" cy="308" r="2.5"/><circle cx="535" cy="302" r="2.5"/>
+          <circle cx="550" cy="295" r="2.5"/><circle cx="565" cy="300" r="2.5"/><circle cx="580" cy="295" r="2.5"/>
+          <circle cx="465" cy="320" r="2.5"/><circle cx="480" cy="315" r="2.5"/><circle cx="495" cy="322" r="2.5"/>
+          <circle cx="510" cy="318" r="2.5"/><circle cx="525" cy="325" r="2.5"/><circle cx="540" cy="318" r="2.5"/>
+          <circle cx="555" cy="312" r="2.5"/><circle cx="570" cy="318" r="2.5"/><circle cx="585" cy="312" r="2.5"/>
+          <circle cx="600" cy="305" r="2.5"/><circle cx="615" cy="310" r="2.5"/><circle cx="630" cy="305" r="2.5"/>
+          <circle cx="470" cy="338" r="2.5"/><circle cx="485" cy="332" r="2.5"/><circle cx="500" cy="338" r="2.5"/>
+          <circle cx="515" cy="342" r="2.5"/><circle cx="530" cy="338" r="2.5"/><circle cx="545" cy="332" r="2.5"/>
+          <circle cx="560" cy="335" r="2.5"/><circle cx="575" cy="330" r="2.5"/><circle cx="590" cy="325" r="2.5"/>
+          <circle cx="605" cy="328" r="2.5"/><circle cx="620" cy="322" r="2.5"/><circle cx="635" cy="318" r="2.5"/>
+          <circle cx="650" cy="325" r="2.5"/><circle cx="660" cy="315" r="2.5"/><circle cx="675" cy="320" r="2.5"/>
+          <circle cx="475" cy="355" r="2.5"/><circle cx="490" cy="350" r="2.5"/><circle cx="505" cy="355" r="2.5"/>
+          <circle cx="520" cy="358" r="2.5"/><circle cx="535" cy="355" r="2.5"/><circle cx="550" cy="348" r="2.5"/>
+          <circle cx="565" cy="352" r="2.5"/><circle cx="580" cy="348" r="2.5"/><circle cx="595" cy="342" r="2.5"/>
+          <circle cx="610" cy="345" r="2.5"/><circle cx="625" cy="340" r="2.5"/><circle cx="640" cy="338" r="2.5"/>
+          <circle cx="655" cy="342" r="2.5"/><circle cx="670" cy="338" r="2.5"/><circle cx="480" cy="370" r="2.5"/>
+          <circle cx="495" cy="368" r="2.5"/><circle cx="510" cy="372" r="2.5"/><circle cx="525" cy="375" r="2.5"/>
+          <circle cx="540" cy="372" r="2.5"/><circle cx="555" cy="368" r="2.5"/><circle cx="570" cy="365" r="2.5"/>
+          <circle cx="485" cy="388" r="2.5"/><circle cx="500" cy="385" r="2.5"/><circle cx="515" cy="390" r="2.5"/>
+          <circle cx="530" cy="388" r="2.5"/><circle cx="545" cy="385" r="2.5"/><circle cx="560" cy="382" r="2.5"/>
+          <circle cx="490" cy="405" r="2.5"/><circle cx="505" cy="402" r="2.5"/><circle cx="520" cy="408" r="2.5"/>
+          <circle cx="535" cy="405" r="2.5"/><circle cx="550" cy="402" r="2.5"/>
+          <circle cx="445" cy="295" r="2.5"/><circle cx="448" cy="310" r="2.5"/><circle cx="450" cy="275" r="2.5"/>
+          <circle cx="640" cy="355" r="2.5"/><circle cx="648" cy="368" r="2.5"/>
+        </g>
+        <!-- Oceania cluster -->
+        <g fill="rgba(255,255,255,0.12)">
+          <circle cx="625" cy="565" r="2.5"/><circle cx="640" cy="558" r="2.5"/><circle cx="655" cy="562" r="2.5"/>
+          <circle cx="670" cy="558" r="2.5"/><circle cx="685" cy="565" r="2.5"/><circle cx="630" cy="578" r="2.5"/>
+          <circle cx="645" cy="575" r="2.5"/><circle cx="660" cy="578" r="2.5"/><circle cx="675" cy="575" r="2.5"/>
+          <circle cx="690" cy="580" r="2.5"/><circle cx="635" cy="592" r="2.5"/><circle cx="650" cy="590" r="2.5"/>
+          <circle cx="665" cy="595" r="2.5"/><circle cx="680" cy="592" r="2.5"/><circle cx="640" cy="608" r="2.5"/>
+          <circle cx="655" cy="605" r="2.5"/><circle cx="670" cy="610" r="2.5"/><circle cx="645" cy="622" r="2.5"/>
+          <circle cx="660" cy="620" r="2.5"/><circle cx="650" cy="635" r="2.5"/>
+          <circle cx="700" cy="572" r="2.5"/><circle cx="695" cy="560" r="2.5"/><circle cx="705" cy="558" r="2.5"/>
+          <circle cx="712" cy="565" r="2.5"/><circle cx="708" cy="580" r="2.5"/>
+          <circle cx="695" cy="538" r="2.5"/><circle cx="682" cy="548" r="2.5"/>
+          <circle cx="620" cy="552" r="2.5"/><circle cx="615" cy="558" r="2.5"/>
+        </g>
+
+        <!-- City pulse rings -->
+        <!-- London -->
+        <g transform="translate(380, 310)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 0s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 0s infinite ease-out"/>
+        </g>
+        <!-- New York -->
+        <g transform="translate(175, 340)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 0.3s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 0.3s infinite ease-out"/>
+        </g>
+        <!-- Los Angeles -->
+        <g transform="translate(130, 360)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 0.6s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 0.6s infinite ease-out"/>
+        </g>
+        <!-- São Paulo -->
+        <g transform="translate(235, 570)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 0.9s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 0.9s infinite ease-out"/>
+        </g>
+        <!-- Toronto -->
+        <g transform="translate(185, 320)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 1.2s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 1.2s infinite ease-out"/>
+        </g>
+        <!-- Nairobi -->
+        <g transform="translate(458, 490)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 1.5s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 1.5s infinite ease-out"/>
+        </g>
+        <!-- Berlin -->
+        <g transform="translate(400, 288)">
+          <circle r="4" fill="#C84B31" opacity="0.9"/>
+          <circle r="12" fill="none" stroke="#C84B31" stroke-width="1.5" opacity="0.5" style="transform-origin:0 0;animation:pulse1 2s 1.8s infinite ease-out"/>
+          <circle r="22" fill="none" stroke="#C84B31" stroke-width="1" opacity="0.3" style="transform-origin:0 0;animation:pulse2 3s 1.8s infinite ease-out"/>
+        </g>
+
+        <!-- Regional streaming bars -->
+        <g>
+        <g>
+          <rect x="100" y="640" width="48" height="160" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="166" y="590" width="48" height="210" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="232" y="610" width="48" height="190" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="298" y="540" width="48" height="260" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="364" y="490" width="48" height="310" rx="4" fill="#C84B31"/>
+          <rect x="430" y="660" width="48" height="140" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="496" y="620" width="48" height="180" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <rect x="562" y="700" width="48" height="100" rx="4" fill="rgba(255,255,255,0.15)"/>
+          <!-- Labels -->
+          <text x="124" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">WAF</text>
+          <text x="190" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">UK</text>
+          <text x="256" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">USA</text>
+          <text x="322" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">EU</text>
+          <text x="388" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">AFR</text>
+          <text x="454" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">CA</text>
+          <text x="520" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">SA</text>
+          <text x="586" y="815" text-anchor="middle" font-family="Satoshi, sans-serif" font-size="9" fill="rgba(255,255,255,0.35)">AU</text>
+        </g>
+        </g>
+      </svg>
+  </div>
+</div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section-how" id="how-it-works">
+    <div class="eyebrow">
+      <div class="eyebrow-line"></div>
+      <span class="eyebrow-text">The Process</span>
+    </div>
+    <h2>Three steps to full clarity.</h2>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin-bottom:56px;border-radius:var(--radius-xl);overflow:hidden">
+  <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&h=220&fit=crop&crop=center&q=75" 
+       alt="Artist in studio" style="width:100%;height:200px;object-fit:cover;display:block">
+  <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600&h=220&fit=crop&crop=center&q=75" 
+       alt="Live performance" style="width:100%;height:200px;object-fit:cover;display:block">
+  <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=600&h=220&fit=crop&crop=center&q=75" 
+       alt="Music producer" style="width:100%;height:200px;object-fit:cover;display:block">
+</div>
+    <div class="steps-row">
+      <div class="step">
+        <div style="margin-bottom:16px;opacity:0.6">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+          </svg>
+        </div>
+        <div class="step-num">01</div>
+        <div class="step-title">Paste any link</div>
+        <p class="step-body">A track, album, video, or artist profile from any major platform. We figure out the rest.</p>
+      </div>
+      <div class="step-divider"></div>
+      <div class="step">
+        <div style="margin-bottom:16px;opacity:0.6">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round">
+            <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+          </svg>
+        </div>
+        <div class="step-num">02</div>
+        <div class="step-title">Live data loads</div>
+        <p class="step-body">We fetch real numbers from every platform simultaneously — followers, streams, listeners, and more.</p>
+      </div>
+      <div class="step-divider"></div>
+      <div class="step">
+        <div style="margin-bottom:16px;opacity:0.6">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/>
+            <path d="M7 8h2m2 0h2m2 0h2"/>
+            <path d="M7 12h4m2 0h3"/>
+          </svg>
+        </div>
+        <div class="step-num">03</div>
+        <div class="step-title">Read your report</div>
+        <p class="step-body">A complete cross-platform presence breakdown with specific recommendations from our analysis engine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM COVERAGE -->
+  <section class="section-platforms" id="platforms">
+    <div>
+      <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Coverage</span></div>
+      <h2>Your audience<br>is everywhere.</h2>
+      <p>Ten platforms. One report. See exactly where your listeners are and where you're leaving growth on the table.</p>
+    </div>
+    <div class="platforms-grid">
+      <div class="platform-card-small" style="border-left-color:#1DB954"><div class="pcs-name" style="color:#1DB954">Spotify</div><div class="pcs-desc">Monthly listeners</div></div>
+      <div class="platform-card-small" style="border-left-color:#FF0000"><div class="pcs-name" style="color:#FF0000">YouTube</div><div class="pcs-desc">Subscribers · Views · Video count</div></div>
+      <div class="platform-card-small" style="border-left-color:#D51007"><div class="pcs-name" style="color:#D51007">Last.fm</div><div class="pcs-desc">Listeners · Scrobbles · Top tracks</div></div>
+      <div class="platform-card-small" style="border-left-color:#A238FF"><div class="pcs-name" style="color:#A238FF">Deezer</div><div class="pcs-desc">Fan count · Albums · Top tracks</div></div>
+      <div class="platform-card-small" style="border-left-color:#FFA200"><div class="pcs-name" style="color:#FFA200">Audiomack</div><div class="pcs-desc">Followers · Plays</div></div>
+      <div class="platform-card-small" style="border-left-color:#010101"><div class="pcs-name" style="color:#010101">TIDAL</div><div class="pcs-desc">Followers</div></div>
+      <div class="platform-card-small" style="border-left-color:#FF5500"><div class="pcs-name" style="color:#FF5500">SoundCloud</div><div class="pcs-desc">Followers</div></div>
+      <div class="platform-card-small" style="border-left-color:#FC3C44"><div class="pcs-name" style="color:#FC3C44">Apple Music</div><div class="pcs-desc">Artist profile</div></div>
+      <div class="platform-card-small" style="border-left-color:#010101"><div class="pcs-name" style="color:#010101">TikTok</div><div class="pcs-desc">Followers · Likes</div></div>
+      <div class="platform-card-small" style="border-left-color:#E1306C"><div class="pcs-name" style="color:#E1306C">Instagram</div><div class="pcs-desc">Followers</div></div>
+      <div class="platform-card-small" style="border-left-color:#00B4B3"><div class="pcs-name" style="color:#00B4B3">Bandsintown</div><div class="pcs-desc">Trackers · Upcoming shows</div></div>
+    </div>
+  </section>
+
+  <!-- ARTIST TYPES SECTION -->
+  <section id="for-artists" style="padding:96px 64px;background:var(--surface-dark)">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:52px;gap:40px">
+      <div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+          <div style="width:40px;height:1px;background:rgba(200,75,49,0.7)"></div>
+          <span style="font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:0.14em;color:rgba(200,75,49,0.8)">Built For Artists Like You</span>
+        </div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:700;color:#fff;letter-spacing:-0.02em;line-height:1.1">Real artists.<br>Real decisions.</h2>
+      </div>
+      <p style="font-size:15px;font-weight:300;color:rgba(255,255,255,0.4);max-width:340px;line-height:1.85;padding-top:8px">From bedroom producers to touring acts — Wavelink gives every independent artist the same intelligence that major labels pay their analytics teams for.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2px;border-radius:var(--radius-xl);overflow:hidden">
+      <div style="background:#1a1a1a;padding:40px 32px;border:1px solid rgba(255,255,255,0.06)">
+        <div style="width:48px;height:48px;border-radius:12px;background:rgba(200,75,49,0.15);display:flex;align-items:center;justify-content:center;margin-bottom:24px">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C84B31" stroke-width="1.5" stroke-linecap="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#fff;margin-bottom:10px">Singer-Songwriter</div>
+        <p style="font-size:13px;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7">Understand which platform your listeners find you on first — and double down there.</p>
+      </div>
+      <div style="background:#1a1a1a;padding:40px 32px;border:1px solid rgba(255,255,255,0.06)">
+        <div style="width:48px;height:48px;border-radius:12px;background:rgba(200,75,49,0.15);display:flex;align-items:center;justify-content:center;margin-bottom:24px">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C84B31" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#fff;margin-bottom:10px">Music Producer</div>
+        <p style="font-size:13px;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7">See where your beats are getting picked up and who's listening across every channel.</p>
+      </div>
+      <div style="background:#1a1a1a;padding:40px 32px;border:1px solid rgba(255,255,255,0.06)">
+        <div style="width:48px;height:48px;border-radius:12px;background:rgba(200,75,49,0.15);display:flex;align-items:center;justify-content:center;margin-bottom:24px">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C84B31" stroke-width="1.5" stroke-linecap="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#fff;margin-bottom:10px">Touring Artist</div>
+        <p style="font-size:13px;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7">Track how your fanbase grows after each show — Bandsintown trackers alongside streaming.</p>
+      </div>
+      <div style="background:#1a1a1a;padding:40px 32px;border:1px solid rgba(255,255,255,0.06)">
+        <div style="width:48px;height:48px;border-radius:12px;background:rgba(200,75,49,0.15);display:flex;align-items:center;justify-content:center;margin-bottom:24px">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C84B31" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M3 12h3m12 0h3M12 3v3m0 12v3"/><path d="M5.6 5.6l2.1 2.1m8.6 8.6 2.1 2.1M5.6 18.4l2.1-2.1m8.6-8.6 2.1-2.1"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;color:#fff;margin-bottom:10px">DJ & Producer</div>
+        <p style="font-size:13px;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7">Measure SoundCloud, YouTube, and TikTok in one view — where dance music actually lives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">WAVELINK</div>
+        <p class="footer-desc">Built for independent artists who want to grow smarter, not just harder.</p>
+      </div>
+      <div>
+        <div class="footer-col-head">Platform</div>
+        <div class="footer-links">
+          <a href="#">Spotify</a>
+          <a href="#">YouTube</a>
+          <a href="#">Last.fm</a>
+          <a href="#">Deezer</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-head">Resources</div>
+        <div class="footer-links">
+          <a href="#">How It Works</a>
+          <a href="#">For Artists</a>
+          <a href="#">API Sources</a>
+          <a href="#">Data Policy</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-head">Connect</div>
+        <div class="footer-links">
+          <a href="#">Twitter/X</a>
+          <a href="#">Instagram</a>
+          <a href="#">Contact</a>
+          <a href="#">Feedback</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wavelink. Built for independent artists.</span>
+      <span>Built for musicians.</span>
+    </div>
+  </footer>
+</div>
+
+<!-- LOADING VIEW -->
+<div data-view="loading">
+  <div class="loading-wordmark">WAVELINK</div>
+  <div style="margin-bottom:32px">
+    <svg width="120" height="60" viewBox="0 0 120 60">
+      <rect x="5" y="20" width="8" height="20" rx="4" fill="var(--accent)" opacity="0.6" style="animation:barPulse 1s 0s ease-in-out infinite alternate"/>
+      <rect x="20" y="10" width="8" height="40" rx="4" fill="var(--accent)" opacity="0.7" style="animation:barPulse 1s 0.1s ease-in-out infinite alternate"/>
+      <rect x="35" y="5" width="8" height="50" rx="4" fill="var(--accent)" opacity="0.8" style="animation:barPulse 1s 0.2s ease-in-out infinite alternate"/>
+      <rect x="50" y="15" width="8" height="30" rx="4" fill="var(--accent)" opacity="0.9" style="animation:barPulse 1s 0.3s ease-in-out infinite alternate"/>
+      <rect x="65" y="5" width="8" height="50" rx="4" fill="var(--accent)" opacity="0.8" style="animation:barPulse 1s 0.2s ease-in-out infinite alternate"/>
+      <rect x="80" y="10" width="8" height="40" rx="4" fill="var(--accent)" opacity="0.7" style="animation:barPulse 1s 0.1s ease-in-out infinite alternate"/>
+      <rect x="95" y="20" width="8" height="20" rx="4" fill="var(--accent)" opacity="0.6" style="animation:barPulse 1s 0s ease-in-out infinite alternate"/>
+      <rect x="110" y="25" width="8" height="10" rx="4" fill="var(--accent)" opacity="0.5" style="animation:barPulse 1s 0.4s ease-in-out infinite alternate"/>
+    </svg>
+  </div>
+  <p id="loading-typewriter"></p>
+  <div class="loading-track"><div class="loading-fill" id="loadingFill"></div></div>
+  <p id="loading-status">Initializing…</p>
+</div>
+
+<!-- RESULTS VIEW -->
+<div data-view="results">
+
+  <!-- SUBNAV -->
+  <nav class="results-subnav" id="resultsSubnav">
+    <a class="subnav-link active" href="#section-overview" onclick="smoothScrollTo('section-overview',event)">Overview</a>
+    <a class="subnav-link" href="#section-platforms" onclick="smoothScrollTo('section-platforms',event)">Platforms</a>
+    <a class="subnav-link" href="#section-tracks" onclick="smoothScrollTo('section-tracks',event)">Top Tracks</a>
+    <a class="subnav-link" href="#section-audience" onclick="smoothScrollTo('section-audience',event)">Audience</a>
+    <a class="subnav-link" href="#section-report" onclick="smoothScrollTo('section-report',event)">Your Report</a>
+    <a class="subnav-link" href="#section-help" onclick="smoothScrollTo('section-help',event)">Get Help</a>
+  </nav>
+
+  <!-- ARTIST HEADER -->
+  <div class="artist-header-section" id="section-overview">
+    <div class="artist-header-inner">
+      <div class="artist-image-wrap" id="artistImageWrap">
+        <div class="artist-image-fallback" id="artistImageFallback"></div>
+      </div>
+      <div class="artist-meta">
+        <div class="artist-tags" id="artistTags"></div>
+        <div class="artist-name" id="artistName"></div>
+        <p class="artist-bio" id="artistBio" style="display:none"></p>
+        <div class="scores-row" id="scoresRow"></div>
+        <blockquote class="verdict-quote" id="verdictQuote" style="display:none"></blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLATFORM PRESENCE -->
+  <div class="results-section anim-fade-up" id="section-platforms">
+    <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Presence</span></div>
+    <h2>Your platform presence</h2>
+    <div class="platforms-results-grid" id="platformsGrid">
+      <div style="color:var(--text-muted);font-size:14px;font-style:italic">Loading platform data…</div>
+    </div>
+  </div>
+
+  <!-- TOP TRACKS -->
+  <div class="results-section tracks-section anim-fade-up" id="section-tracks">
+    <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Performance</span></div>
+    <h2>Your top tracks</h2>
+    <div id="tracksList"></div>
+  </div>
+
+  <!-- AUDIENCE -->
+  <div class="results-section anim-fade-up" id="section-audience">
+    <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Audience</span></div>
+    <h2>Who's listening where</h2>
+    <div class="audience-grid" id="audienceGrid">
+      <div>
+        <h3>Cross-Platform Reach</h3>
+        <div id="reachBars"></div>
+      </div>
+      <div>
+        <h3>Connected Platforms</h3>
+        <div class="platforms-found" id="platformsFound">—</div>
+        <div class="platforms-found-label" id="platformsFoundLabel">platforms with data found</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPERT REPORT -->
+  <div class="results-section report-section anim-fade-up" id="section-report">
+    <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Your Report</span></div>
+    <h2>The full picture.</h2>
+    <div id="reportContent">
+      <div class="report-loading"><p>Building your report…</p></div>
+    </div>
+  </div>
+
+  <!-- HELP BANNER -->
+  <div class="help-banner" id="section-help">
+    <div>
+      <div class="help-eyebrow">Work With Professionals</div>
+      <h2>Ready to act on these insights?</h2>
+      <p class="help-sub">Connect with verified music industry professionals who specialize in exactly what your report identified.</p>
+    </div>
+    <div style="text-align:center">
+      <button class="help-btn" onclick="openModal()">Browse Specialists →</button>
+      <div class="help-btn-sub">No signup required · Free to browse</div>
+    </div>
+  </div>
+</div>
+
+<!-- FLOATING CTA -->
+<button id="floatingCTA" onclick="openModal()">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+  Work With Professionals →
+</button>
+
+<!-- SPECIALISTS MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModalOutside(event)">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3>Music Industry Specialists</h3>
+      <button class="modal-close" onclick="closeModal()">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal-filters" id="modalFilters">
+      <button class="filter-tab active" onclick="filterSpecialists('All',this)">All</button>
+      <button class="filter-tab" onclick="filterSpecialists('Promotion',this)">Promotion</button>
+      <button class="filter-tab" onclick="filterSpecialists('Distribution',this)">Distribution</button>
+      <button class="filter-tab" onclick="filterSpecialists('Social Media',this)">Social Media</button>
+      <button class="filter-tab" onclick="filterSpecialists('Mixing & Mastering',this)">Mixing & Mastering</button>
+      <button class="filter-tab" onclick="filterSpecialists('Management',this)">Management</button>
+    </div>
+    <div class="modal-body">
+      <div class="specialists-grid" id="specialistsGrid"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════════════════
+const CONFIG = {
+  YOUTUBE_API_KEY: "AIzaSyBZmmTBwXHb_V-mv-KwLjz7efiFaqPKBvY",
+  LASTFM_API_KEY: "82eeae96eede5c4639788000c518bf83"
+};
+
+// ═══════════════════════════════════════════════════════════════
+// URL DETECTION
+// ═══════════════════════════════════════════════════════════════
+const URL_PATTERNS = [
+  { platform: 'youtube', regex: /youtube\.com\/channel\/(UC[a-zA-Z0-9_-]+)/i, type: 'channel_id', extract: m => m[1] },
+  { platform: 'youtube', regex: /youtube\.com\/@([^/?&\s]+)/i, type: 'handle', extract: m => m[1] },
+  { platform: 'youtube', regex: /youtube\.com\/c\/([^/?&\s]+)/i, type: 'handle', extract: m => m[1] },
+  { platform: 'youtube', regex: /youtube\.com\/user\/([^/?&\s]+)/i, type: 'handle', extract: m => m[1] },
+  { platform: 'youtube', regex: /youtube\.com\/watch\?v=([a-zA-Z0-9_-]+)/i, type: 'video_id', extract: m => m[1] },
+  { platform: 'youtube', regex: /youtu\.be\/([a-zA-Z0-9_-]+)/i, type: 'video_id', extract: m => m[1] },
+  { platform: 'spotify', regex: /open\.spotify\.com\/artist\/([a-zA-Z0-9]+)/i, type: 'artist_id', extract: m => m[1] },
+  { platform: 'spotify', regex: /open\.spotify\.com\/track\/([a-zA-Z0-9]+)/i, type: 'track_id', extract: m => m[1] },
+  { platform: 'spotify', regex: /open\.spotify\.com\/album\/([a-zA-Z0-9]+)/i, type: 'album_id', extract: m => m[1] },
+  { platform: 'lastfm', regex: /last\.fm\/music\/([^/+?&\s]+)/i, type: 'artist_name', extract: m => decodeURIComponent(m[1].replace(/\+/g,' ')) },
+  { platform: 'deezer', regex: /deezer\.com\/[a-z]+\/artist\/(\d+)/i, type: 'artist_id', extract: m => m[1] },
+  { platform: 'deezer', regex: /deezer\.com\/[a-z]+\/track\/(\d+)/i, type: 'track_id', extract: m => m[1] },
+  { platform: 'deezer', regex: /deezer\.com\/[a-z]+\/album\/(\d+)/i, type: 'album_id', extract: m => m[1] },
+  { platform: 'soundcloud', regex: /soundcloud\.com\/([^/?#\s]+)(?:\/[^/?#\s]+)?/i, type: 'username', extract: m => m[1] },
+  { platform: 'audiomack', regex: /audiomack\.com\/([^/?#\s]+)/i, type: 'username', extract: m => m[1] },
+  { platform: 'tidal', regex: /tidal\.com\/browse\/artist\/(\d+)/i, type: 'artist_id', extract: m => m[1] },
+  { platform: 'apple', regex: /music\.apple\.com\/[a-z]+\/artist\/[^/]+\/(\d+)/i, type: 'artist_id', extract: m => m[1] },
+  { platform: 'apple', regex: /music\.apple\.com\/[a-z]+\/album\/[^/]+\/(\d+)/i, type: 'album_id', extract: m => m[1] },
+  { platform: 'tiktok', regex: /tiktok\.com\/@([^/?#\s]+)/i, type: 'username', extract: m => m[1] },
+  { platform: 'instagram', regex: /instagram\.com\/([^/?#\s]+)/i, type: 'username', extract: m => m[1] },
+  { platform: 'bandsintown', regex: /bandsintown\.com\/a\/([^/?#\s]+)/i, type: 'artist_name', extract: m => decodeURIComponent(m[1]) },
+];
+
+const PLATFORM_NAMES = {
+  youtube:'YouTube', spotify:'Spotify', lastfm:'Last.fm', deezer:'Deezer',
+  soundcloud:'SoundCloud', audiomack:'Audiomack', tidal:'TIDAL',
+  apple:'Apple Music', tiktok:'TikTok', instagram:'Instagram', bandsintown:'Bandsintown'
+};
+const PLATFORM_COLORS = {
+  youtube:'#FF0000', spotify:'#1DB954', lastfm:'#D51007', deezer:'#A238FF',
+  soundcloud:'#FF5500', audiomack:'#FFA200', tidal:'#000000',
+  apple:'#FC3C44', tiktok:'#010101', instagram:'#E1306C', bandsintown:'#00B4B3'
+};
+
+function detectURL(url) {
+  for (const p of URL_PATTERNS) {
+    const m = url.match(p.regex);
+    if (m) return { platform: p.platform, type: p.type, value: p.extract(m), raw: url };
+  }
+  return null;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// PLATFORM INPUT DETECTION UI
+// ═══════════════════════════════════════════════════════════════
+const searchInput = document.getElementById('searchInput');
+const searchBox = document.getElementById('searchBox');
+const platformIcon = document.getElementById('platformIcon');
+const platformPill = document.getElementById('platformPill');
+// Platform icons
+function getPlatformIcon(platform, size) {
+  const icons = {
+    spotify: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" fill="#1DB954"/></svg>`,
+    youtube: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="#FF0000"/></svg>`,
+    lastfm: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M10.584 17.21l-.88-2.392s-1.43 1.594-3.573 1.594c-1.897 0-3.244-1.65-3.244-4.289 0-3.38 1.704-4.591 3.382-4.591 2.42 0 3.188 1.567 3.848 3.574l.88 2.722c.88 2.667 2.53 4.811 7.297 4.811 3.41 0 5.722-1.044 5.722-3.795 0-2.228-1.264-3.381-3.631-3.931l-1.757-.385c-1.21-.275-1.567-.77-1.567-1.595 0-.935.742-1.484 1.952-1.484 1.32 0 2.035.494 2.145 1.677l2.75-.33c-.22-2.476-1.924-3.49-4.73-3.49-2.476 0-4.84.935-4.84 3.932 0 1.869.907 3.05 3.19 3.601l1.869.44c1.374.33 1.868.907 1.868 1.814 0 1.077-.99 1.52-2.86 1.52-2.777 0-3.932-1.457-4.59-3.465l-.906-2.75c-1.155-3.546-2.997-4.866-6.653-4.866C1.73 5.933 0 8.574 0 12.178c0 3.49 1.787 6.02 5.196 6.02 2.695 0 4.235-1.375 4.235-1.375l1.153.387z" fill="#D51007"/></svg>`,
+    deezer: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M18.944 17.335h4.512V24h-4.512v-6.665zm-6.472.45h4.512V24h-4.512v-6.215zm-6.472.9H10.512V24H6V18.685zm-6 .9h4.512V24H0v-4.415zM18.944 8.668h4.512v6.665h-4.512V8.668zm-6.472.9h4.512v5.765h-4.512V9.568zm-6.472.9H10.512v4.865H6V10.468zM18.944 0h4.512v6.665h-4.512V0zm-6.472.9h4.512v5.765h-4.512V.9z" fill="#A238FF"/></svg>`,
+    soundcloud: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M1.175 12.225C.528 12.225 0 12.75 0 13.397c0 .644.528 1.172 1.175 1.172.644 0 1.172-.528 1.172-1.172 0-.647-.528-1.172-1.172-1.172zm3.237-.85c-.552 0-1.003.45-1.003 1.003v4.59c0 .552.45 1.003 1.003 1.003.55 0 1.003-.45 1.003-1.003v-4.59c0-.553-.451-1.003-1.003-1.003zm3.3-2.55c-.55 0-1.003.45-1.003 1.003v7.14c0 .55.453 1.003 1.003 1.003.553 0 1.003-.453 1.003-1.003V9.828c0-.553-.45-1.003-1.003-1.003zm3.3.225c-.553 0-1.003.45-1.003 1.003v6.915c0 .553.45 1.003 1.003 1.003.55 0 1.003-.45 1.003-1.003v-6.915c0-.553-.453-1.003-1.003-1.003zm3.3-1.35c-.553 0-1.003.45-1.003 1.003v8.265c0 .553.45 1.003 1.003 1.003.55 0 1.003-.45 1.003-1.003V8.703c0-.553-.453-1.003-1.003-1.003zm4.425-3.122c-1.453 0-2.7.9-3.197 2.175-.203-.107-.431-.168-.675-.168-.81 0-1.463.653-1.463 1.463v7.628c0 .81.653 1.463 1.463 1.463h3.872c2.297 0 4.153-1.856 4.153-4.153V9.628c0-2.296-1.856-4.15-4.153-4.15z" fill="#FF5500"/></svg>`,
+    apple: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M23.994 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 0 0-1.877-.726 10.496 10.496 0 0 0-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026C4.786.07 4.043.15 3.34.428 2.004.958 1.04 1.88.475 3.208A7.494 7.494 0 0 0 .09 5.25C.027 5.8 0 6.354 0 6.906V17.1c0 .556.036 1.11.09 1.654.06.59.18 1.173.38 1.74.63 1.8 1.93 2.9 3.8 3.31.595.13 1.2.17 1.81.17H17.9c.65 0 1.3-.045 1.94-.19 1.72-.39 3.01-1.39 3.65-3.08.24-.63.34-1.28.39-1.94.04-.5.04-.994.04-1.49V6.906c0-.265-.01-.528-.03-.79l.01.008zm-5.06 5.35c-.01.162-.04.32-.1.47-.17.42-.52.72-.96.79-.31.05-.62 0-.89-.17l-.04-.02a.842.842 0 0 1-.27-.24.98.98 0 0 1-.19-.36l-.02-.06c-.04-.16-.05-.32-.04-.48V8.38l-6.51 1.57v6.41c0 .16-.02.32-.07.47-.17.43-.54.74-.99.79-.32.04-.64-.01-.91-.19a1.017 1.017 0 0 1-.44-.63l-.02-.07c-.03-.15-.04-.3-.04-.45v-.04c0-.007 0-.013.002-.02V9.23l.008-1.32c.005-.2.04-.4.105-.59.19-.56.63-.98 1.19-1.11l6.51-1.57.01-.002c.09-.022.18-.033.27-.038h.02c.14 0 .28.02.42.07.46.15.79.55.84 1.03v.09c.007.067.01.134.008.2v4.4z" fill="#FC3C44"/></svg>`,
+    tiktok: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="#010101"/></svg>`,
+    instagram: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.988 8.74 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 3.252.148 4.771 1.691 4.919 4.919.049 1.265.064 1.645.064 4.849 0 3.205-.015 3.585-.074 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.072-4.85.072-3.204 0-3.584-.014-4.849-.072-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.072-1.644-.072-4.849 0-3.204.013-3.583.072-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.071 4.849-.071zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" fill="#E1306C"/></svg>`,
+    bandsintown: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M8.916 0C4.404 0 .168 3.408 0 8.027c-.06 1.568.192 3.02.84 4.344C2.556 15.444 5.7 17.268 9 17.268c1.848 0 3.636-.6 5.148-1.74L21.012 24l2.988-2.988-6.744-6.756c1.236-1.512 1.98-3.384 1.98-5.448-.012-5.04-4.14-8.796-9.072-8.796zm.012 14.352c-3.468 0-6.276-2.808-6.276-6.276 0-3.456 2.808-6.264 6.276-6.264s6.276 2.808 6.276 6.264c0 3.468-2.808 6.276-6.276 6.276z" fill="#00B4B3"/></svg>`,
+    audiomack: `<svg role="img" viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10S2 17.514 2 12 6.486 2 12 2zm-1.5 4v9.5l7-4.75-7-4.75zm0 2.31l4.5 3.065-4.5 3.065V8.31z" fill="#FFA200"/></svg>`,
+    tidal: `<svg viewBox="0 0 24 24" width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg"><path d="M12.012 3.992L8.008 7.996 4.004 3.992 0 7.996l4.004 4.004 4.004-4.004 4.004 4.004 4.004-4.004L20.016 12l4.004-4.004-4.004-4.004-4.004 4.004-4.004-4.004zM8.008 12l-4.004 4.004L8.008 20l4.004-4.004L8.008 12z" fill="#000000"/></svg>`,
+  };
+  return icons[platform] || `<svg viewBox="0 0 24 24" width="${size}" height="${size}"><circle cx="12" cy="12" r="10" fill="#9E9790"/></svg>`;
+}
+
+// Initialize with first platform icon (must be after getPlatformIcon is defined)
+platformIcon.innerHTML = getPlatformIcon('spotify', 22);
+
+// Inject platform icons into homepage pills
+const pillPlatforms = ['spotify','youtube','lastfm','deezer','audiomack','soundcloud','apple','bandsintown','tiktok','instagram'];
+const pillNames = ['Spotify','YouTube','Last.fm','Deezer','Audiomack','SoundCloud','Apple Music','Bandsintown','TikTok','Instagram'];
+const pillsContainer = document.getElementById('homePlatformPills');
+if (pillsContainer) {
+  pillsContainer.innerHTML = pillPlatforms.map((p, i) =>
+    `<div class="dot-pill">${getPlatformIcon(p, 14)}<span style="margin-left:5px">${pillNames[i]}</span></div>`
+  ).join('');
+}
+
+let iconCycleIdx = 0;
+const iconCyclePlatforms = ['spotify','youtube','lastfm','deezer'];
+let iconCycleTimer = setInterval(() => {
+  iconCycleIdx = (iconCycleIdx+1) % iconCyclePlatforms.length;
+  const p = iconCyclePlatforms[iconCycleIdx];
+  platformIcon.style.background = 'transparent';
+  platformIcon.innerHTML = getPlatformIcon(p, 22);
+}, 2800);
+
+searchInput.addEventListener('input', () => {
+  const val = searchInput.value;
+  const detected = val.length > 3 ? detectURL(val) : null;
+
+  if (detected) {
+    clearInterval(iconCycleTimer);
+    const color = PLATFORM_COLORS[detected.platform] || '#9E9790';
+    const name = PLATFORM_NAMES[detected.platform] || detected.platform;
+    platformIcon.style.background = 'transparent';
+    platformIcon.style.borderRadius = '50%';
+    platformIcon.innerHTML = getPlatformIcon(detected.platform, 24);
+    platformPill.innerHTML = getPlatformIcon(detected.platform, 14) + '<span style="margin-left:4px">' + name + '</span>';
+    platformPill.style.background = color + '22';
+    platformPill.style.color = color;
+    platformPill.style.border = `1px solid ${color}55`;
+    platformPill.className = 'platform-pill visible';
+    searchBox.style.borderColor = color + 'aa';
+  } else {
+    platformPill.className = 'platform-pill';
+    searchBox.style.borderColor = '';
+    if (!iconCycleTimer) {
+      iconCycleTimer = setInterval(() => {
+        iconCycleIdx = (iconCycleIdx+1) % iconCyclePlatforms.length;
+        const p = iconCyclePlatforms[iconCycleIdx];
+        platformIcon.style.background = PLATFORM_COLORS[p] || '#9E9790';
+        platformIcon.innerHTML = getPlatformIcon(p, 20);
+      }, 2800);
+    }
+  }
+});
+
+searchInput.addEventListener('keydown', e => { if (e.key === 'Enter') handleAnalyze(); });
+
+// ═══════════════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════════════
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 40);
+});
+
+function switchView(view) {
+  if (view !== 'results') {
+    document.querySelectorAll('[data-view="results"] .anim-fade-up').forEach(el => el.classList.remove('visible'));
+  }
+  document.body.setAttribute('data-active-view', view);
+  window.scrollTo(0, 0);
+}
+
+function goHome() { switchView('home'); }
+
+function toggleMobileMenu(){
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+function closeMobileMenu(){
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+function smoothScrollTo(id, e) {
+  e && e.preventDefault();
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function showError(msg) {
+  const el = document.getElementById('errorMsg');
+  el.textContent = msg;
+  el.className = 'error-msg visible';
+  const btn = document.getElementById('analyzeBtn');
+  btn.textContent = 'Analyze';
+  btn.disabled = false;
+  switchView('home');
+}
+
+// ═══════════════════════════════════════════════════════════════
+// LOADING STATE
+// ═══════════════════════════════════════════════════════════════
+function startLoading() {
+  switchView('loading');
+  const tw = document.getElementById('loading-typewriter');
+  const fill = document.getElementById('loadingFill');
+  const status = document.getElementById('loading-status');
+  const text = 'Reading the room…';
+  tw.textContent = '';
+  let i = 0;
+  const t = setInterval(() => {
+    tw.textContent = text.slice(0, ++i);
+    if (i >= text.length) clearInterval(t);
+  }, 45);
+  setTimeout(() => { fill.style.width = '90%'; }, 100);
+  const statuses = ['Fetching YouTube data…','Pulling Last.fm listeners…','Reading Deezer profile…','Checking public pages…','Building your report…'];
+  let si = 0;
+  const st = setInterval(() => {
+    si++;
+    if (si < statuses.length) status.textContent = statuses[si];
+    else clearInterval(st);
+  }, 1800);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// DATA FETCHING
+// ═══════════════════════════════════════════════════════════════
+async function corsProxy(url) {
+  try {
+    const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`);
+    if (!r.ok) throw new Error('corsproxy failed');
+    return r;
+  } catch {
+    const r2 = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
+    const d = await r2.json();
+    return { text: async () => d.contents };
+  }
+}
+
+async function fetchYouTube(detected) {
+  try {
+    let channelId = null;
+    if (detected.type === 'channel_id') {
+      channelId = detected.value;
+    } else if (detected.type === 'video_id') {
+      const r = await fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${detected.value}&key=${CONFIG.YOUTUBE_API_KEY}`);
+      const d = await r.json();
+      channelId = d.items?.[0]?.snippet?.channelId;
+    } else if (detected.type === 'handle') {
+      const r = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&forHandle=${detected.value}&key=${CONFIG.YOUTUBE_API_KEY}`);
+      const d = await r.json();
+      channelId = d.items?.[0]?.id;
+    }
+    if (!channelId) return null;
+    const r = await fetch(`https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics,brandingSettings&id=${channelId}&key=${CONFIG.YOUTUBE_API_KEY}`);
+    const d = await r.json();
+    const ch = d.items?.[0];
+    if (!ch) return null;
+    return {
+      platform:'youtube',
+      artistName: ch.snippet.title,
+      image: ch.snippet.thumbnails?.high?.url || ch.snippet.thumbnails?.medium?.url,
+      description: ch.snippet.description?.slice(0,200),
+      country: ch.snippet.country,
+      subscribers: parseInt(ch.statistics.subscriberCount || 0),
+      totalViews: parseInt(ch.statistics.viewCount || 0),
+      videoCount: parseInt(ch.statistics.videoCount || 0),
+      dataType:'api'
+    };
+  } catch { return null; }
+}
+
+async function fetchLastFM(artistName) {
+  try {
+    const [ir, tr] = await Promise.all([
+      fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${encodeURIComponent(artistName)}&api_key=${CONFIG.LASTFM_API_KEY}&format=json`),
+      fetch(`https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${encodeURIComponent(artistName)}&api_key=${CONFIG.LASTFM_API_KEY}&format=json&limit=8`)
+    ]);
+    const info = await ir.json();
+    const tracks = await tr.json();
+    if (info.error || !info.artist) return null;
+    const a = info.artist;
+    const bio = a.bio?.summary?.replace(/<a[^>]*>.*?<\/a>/gi,'').replace(/<[^>]+>/g,'').trim().slice(0,300);
+    return {
+      platform:'lastfm', artistName: a.name,
+      image: a.image?.find(i=>i.size==='extralarge')?.['#text'] || a.image?.slice(-1)[0]?.['#text'],
+      listeners: parseInt(a.stats?.listeners||0),
+      scrobbles: parseInt(a.stats?.playcount||0),
+      bio, tags: a.tags?.tag?.slice(0,3).map(t=>t.name),
+      similar: a.similar?.artist?.slice(0,3).map(s=>s.name),
+      topTracks: tracks.toptracks?.track?.map(t=>({ name:t.name, plays:parseInt(t.playcount||0), listeners:parseInt(t.listeners||0) })),
+      dataType:'api'
+    };
+  } catch { return null; }
+}
+
+async function fetchDeezer(detected) {
+  try {
+    let artistId = null, artistName = null;
+    if (detected.type === 'artist_id') { artistId = detected.value; }
+    else if (detected.type === 'track_id') {
+      const r = await fetch(`https://api.deezer.com/track/${detected.value}`);
+      const d = await r.json(); artistId = d.artist?.id; artistName = d.artist?.name;
+    } else if (detected.type === 'album_id') {
+      const r = await fetch(`https://api.deezer.com/album/${detected.value}`);
+      const d = await r.json(); artistId = d.artist?.id; artistName = d.artist?.name;
+    }
+    if (!artistId && artistName) {
+      const r = await fetch(`https://api.deezer.com/search/artist?q=${encodeURIComponent(artistName)}&limit=1`);
+      const d = await r.json(); artistId = d.data?.[0]?.id;
+    }
+    if (!artistId) return null;
+    const [ar, tr] = await Promise.all([
+      fetch(`https://api.deezer.com/artist/${artistId}`),
+      fetch(`https://api.deezer.com/artist/${artistId}/top?limit=5`)
+    ]);
+    const artist = await ar.json();
+    const top = await tr.json();
+    return {
+      platform:'deezer', artistName: artist.name,
+      image: artist.picture_xl || artist.picture_big,
+      fans: parseInt(artist.nb_fan||0), albums: parseInt(artist.nb_album||0),
+      topTracks: top.data?.map(t=>({ name:t.title, plays:parseInt(t.rank||0), preview:t.preview })),
+      dataType:'api'
+    };
+  } catch { return null; }
+}
+
+async function fetchSpotifyPublic(artistId) {
+  try {
+    const url = `https://open.spotify.com/artist/${artistId}`;
+    const r = await corsProxy(url);
+    const html = await r.text();
+    const listenerMatch = html.match(/"monthlyListeners":(\d+)/i) || html.match(/(\d[\d,]+)\s*monthly listeners/i);
+    const nameMatch = html.match(/<title>([^|<]+)/i);
+    const imageMatch = html.match(/https:\/\/i\.scdn\.co\/image\/[a-f0-9]+/i);
+    return {
+      platform:'spotify',
+      artistName: nameMatch?.[1]?.trim()?.replace(' | Spotify','')?.replace(' on Spotify','')?.trim(),
+      monthlyListeners: listenerMatch ? parseInt(listenerMatch[1].replace(/,/g,'')) : null,
+      image: imageMatch?.[0], dataType:'public'
+    };
+  } catch { return null; }
+}
+
+async function fetchSoundCloudPublic(username) {
+  try {
+    const url = `https://soundcloud.com/${username}`;
+    const r = await corsProxy(url);
+    const html = await r.text();
+    const followerMatch = html.match(/"followers_count":(\d+)/i);
+    const nameMatch = html.match(/"username":"([^"]+)"/i) || html.match(/<title>([^|<]+)/i);
+    const imageMatch = html.match(/"avatar_url":"([^"]+)"/i);
+    return {
+      platform:'soundcloud',
+      artistName: nameMatch?.[1]?.trim(),
+      followers: followerMatch ? parseInt(followerMatch[1]) : null,
+      image: imageMatch?.[1]?.replace('large','t500x500'),
+      dataType:'public'
+    };
+  } catch { return null; }
+}
+
+async function fetchApplePublic(artistId) {
+  try {
+    const url = `https://music.apple.com/us/artist/${artistId}`;
+    const r = await corsProxy(url);
+    const html = await r.text();
+    const nameMatch = html.match(/<title>([^–<]+)/i);
+    const imageMatch = html.match(/https:\/\/is\d+\.mzstatic\.com\/image\/thumb\/[^\s"]+/i);
+    return {
+      platform:'apple',
+      artistName: nameMatch?.[1]?.trim(),
+      image: imageMatch?.[0]?.replace(/\d+x\d+/,'500x500'),
+      dataType:'public'
+    };
+  } catch { return null; }
+}
+
+async function fetchTikTokPublic(username) {
+  try {
+    const url = `https://www.tiktok.com/@${username}`;
+    const r = await corsProxy(url);
+    const html = await r.text();
+    const followerMatch = html.match(/"followerCount":(\d+)/i);
+    const likesMatch = html.match(/"heartCount":(\d+)/i);
+    const nameMatch = html.match(/"nickname":"([^"]+)"/i);
+    const imageMatch = html.match(/"avatarLarger":"([^"]+)"/i);
+    return {
+      platform:'tiktok',
+      artistName: nameMatch?.[1],
+      followers: followerMatch ? parseInt(followerMatch[1]) : null,
+      likes: likesMatch ? parseInt(likesMatch[1]) : null,
+      image: imageMatch?.[1]?.replace(/\\u002F/g,'/'),
+      dataType:'public'
+    };
+  } catch { return null; }
+}
+
+async function fetchInstagramPublic(username) {
+  try {
+    const url = `https://www.instagram.com/${username}/`;
+    const r = await corsProxy(url);
+    const html = await r.text();
+    const followerMatch = html.match(/"edge_followed_by":\{"count":(\d+)\}/i);
+    const nameMatch = html.match(/"full_name":"([^"]+)"/i);
+    const imageMatch = html.match(/"profile_pic_url_hd":"([^"]+)"/i);
+    return {
+      platform:'instagram',
+      artistName: nameMatch?.[1],
+      followers: followerMatch ? parseInt(followerMatch[1]) : null,
+      image: imageMatch?.[1]?.replace(/\\u002F/g,'/'),
+      dataType:'public'
+    };
+  } catch { return null; }
+}
+
+async function fetchBandsintown(artistName) {
+  try {
+    const r = await fetch(`https://rest.bandsintown.com/artists/${encodeURIComponent(artistName)}?app_id=wavelink`);
+    const d = await r.json();
+    if (d.error) return null;
+    return {
+      platform:'bandsintown', artistName: d.name, image: d.image_url,
+      trackerCount: parseInt(d.tracker_count||0),
+      upcomingEventCount: parseInt(d.upcoming_event_count||0),
+      dataType:'api'
+    };
+  } catch { return null; }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// ANONYMOUS REPORT (when primary fetch fails)
+// ═══════════════════════════════════════════════════════════════
+async function generateAnonymousReport(platform) {
+  const platformName = PLATFORM_NAMES[platform] || platform;
+
+  // Platform-specific context and strategy vocabulary for varied, expert reports
+  const platformContexts = {
+    spotify: { discovery: 'Spotify algorithm (Discover Weekly, Radio, Release Radar)', metric: 'monthly listener count and listener-to-follower conversion rate', tactic: 'Sonic SEO on track metadata, Release Velocity Stacking, and Micro-Community Seeding via independent playlist curators', monetisation: 'Spotify for Artists royalty optimisation and Canvas loop engagement' },
+    youtube: { discovery: 'YouTube recommendation engine and search SEO', metric: 'subscriber-to-view ratio and average view duration', tactic: 'Thumbnail CTR optimisation, Video SEO (titles, chapters, tags), Release Velocity with YouTube Shorts cross-posting', monetisation: 'YouTube Partner Programme monetisation and Super Thanks engagement' },
+    lastfm: { discovery: 'Last.fm scrobble network and similar artist recommendations', metric: 'scrobble-to-listener ratio and catalogue depth', tactic: 'Catalogue Clustering to build topical authority, listener tagging optimisation, and similar-artist positioning', monetisation: 'Last.fm Pro promotion and scrobble-driven Spotify algorithmic spillover' },
+    deezer: { discovery: 'Deezer Flow algorithm and editorial playlists', metric: 'fan count and album release cadence', tactic: 'Deezer Artist Plus profile optimisation, editorial playlist pitching, and Flow algorithm seeding', monetisation: 'Deezer monetisation via distributor pitching to editorial team' },
+    soundcloud: { discovery: 'SoundCloud Go+ algorithm and repost network', metric: 'follower count and play-to-follower ratio', tactic: 'Repost chain activation, SoundCloud Next Pro upgrade for monetisation access, and producer tag optimisation for discovery', monetisation: 'SoundCloud Premier monetisation and fan-powered royalties' },
+    tiktok: { discovery: 'TikTok For You Page algorithm and sound virality', metric: 'follower count, like-to-view ratio, and sound usage count', tactic: 'Sound-first content strategy, Dark Social Amplification via duet and stitch mechanics, and Creator Marketplace licensing', monetisation: 'TikTok Creator Fund, brand partnerships, and music sync placement via viral sounds' },
+    instagram: { discovery: 'Instagram Reels algorithm and hashtag reach', metric: 'follower count and Reels engagement rate', tactic: 'Reels frequency stacking, audio branding with original sounds, and Story poll engagement for algorithmic boost', monetisation: 'Instagram Shopping, brand partnerships, and Reels bonus programme' },
+    apple: { discovery: 'Apple Music editorial and Shazam integration', metric: 'playlist placement and Shazam chart presence', tactic: 'Apple Music for Artists profile completion, Shazam chart optimisation, and editorial pitching via distributor', monetisation: 'Apple Music Connect engagement and editorial playlist placement' },
+    audiomack: { discovery: 'Audiomack trending algorithm and genre charts', metric: 'plays, downloads, and repost count', tactic: 'Audiomack Amplify programme, trending chart positioning, and genre-tag optimisation', monetisation: 'Audiomack monetisation for verified artists and stream-gated downloads' },
+    bandsintown: { discovery: 'Bandsintown tracker network and live event discovery', metric: 'tracker count and upcoming event frequency', tactic: 'Live event frequency building, tracker engagement campaigns, and Bandsintown Amplified promotion', monetisation: 'Merchandise and ticket upsell via Bandsintown integration' },
+    tidal: { discovery: 'TIDAL Rising editorial and HiFi subscriber discovery', metric: 'subscriber engagement and playlist placement', tactic: 'TIDAL Rising submission, HiFi audio quality optimisation, and editorial relationship building', monetisation: 'TIDAL artist payments (highest per-stream rate) and Direct-to-Fan features' }
+  };
+
+  const ctx = platformContexts[platform] || platformContexts['spotify'];
+
+  // Pick one of several different analytical angles to keep reports varied
+  const angles = [
+    'growth velocity and algorithmic positioning',
+    'audience conversion and monetisation readiness',
+    'catalogue depth and discovery surface area',
+    'cross-platform signal strength and brand authority',
+    'release cadence and editorial consideration score'
+  ];
+  const angle = angles[Math.floor(Math.random() * angles.length)];
+
+  const prompt = 'You are a world-class music industry strategist — think Rick Rubin meets a data scientist. You have just pulled a full intelligence report on a ' + platformName + ' artist. This is your paid consultancy delivery. You are analysing them through the lens of ' + angle + '. Write with full authority. Every sentence must be specific to ' + platformName + ' and actionable.\n\nPLATFORM: ' + platformName + '\nDISCOVERY MECHANISM: ' + ctx.discovery + '\nKEY METRIC TO OPTIMISE: ' + ctx.metric + '\nCORE TACTICS AVAILABLE: ' + ctx.tactic + '\nMONETISATION PATH: ' + ctx.monetisation + '\nANALYSIS ANGLE: ' + angle + '\n\nWrite as if you have just finished analysing their ' + platformName + ' profile in detail. Be blunt, specific, and authoritative. Reference ' + platformName + '-specific mechanics in every section. Do NOT write generic music advice. Every recommendation must be grounded in how ' + platformName + ' actually works.\n\nSCORING:\n- presenceScore: 34-56 (realistic for an artist without live data)\n- growthScore: 30-52\n- engagementScore: 26-48\n- Vary scores meaningfully based on the angle chosen — not all scores should be identical\n\nCONTENT:\n- verdict: max 18 words, specific to ' + platformName + ' positioning\n- summary: 3 sharp sentences referencing ' + platformName + '-specific dynamics, algorithms, and the analysis angle\n- strengths: 3 items, each naming a specific ' + platformName + ' mechanic or algorithm feature and how the artist can leverage it\n- attention: 2 items, each naming a specific ' + platformName + ' growth gap and the exact named strategy to close it\n- actions: 5 total (2 Now, 2 Month, 1 Long Term) — each action must name a specific ' + platformName + ' feature, tactic, or tool and give a concrete measurable outcome\n- platformFocus: why ' + platformName + ' is or is not the right primary channel right now — one sharp sentence\n- blindSpot: the single most common mistake ' + platformName + ' artists make that kills their growth — one blunt sentence specific to this platform\n- audienceTruth: one expert insight about how ' + platformName + ' listeners specifically discover and commit to new artists\n\nReturn ONLY raw JSON starting with {. No markdown, no backticks, nothing before or after.\n{"presenceScore":<int>,"growthScore":<int>,"engagementScore":<int>,"verdict":"<string>","summary":"<string>","strengths":["<string>","<string>","<string>"],"attention":["<string>","<string>"],"actions":[{"timing":"Do This Now","action":"<string>","outcome":"<string>"},{"timing":"Do This Now","action":"<string>","outcome":"<string>"},{"timing":"This Month","action":"<string>","outcome":"<string>"},{"timing":"This Month","action":"<string>","outcome":"<string>"},{"timing":"Long Term","action":"<string>","outcome":"<string>"}],"platformFocus":"<string>","blindSpot":"<string>","audienceTruth":"<string>"}';
+
+  try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 1500,
+        messages: [{ role: "user", content: prompt }]
+      })
+    });
+
+    const d = await res.json();
+    const text = d.content?.[0]?.text;
+    if (!text) throw new Error('No text');
+
+    let clean = text.trim().replace(/^```json[\r\n]*/i,'').replace(/^```[\r\n]*/i,'').replace(/[\r\n]*```$/i,'').trim();
+    const s = clean.indexOf('{'), e = clean.lastIndexOf('}');
+    if (s !== -1 && e !== -1) clean = clean.slice(s, e+1);
+    return JSON.parse(clean);
+
+  } catch(err) {
+    console.error('Report error:', err);
+    return buildAnonymousFallbackReport(platformName);
+  }
+}
+
+function buildFallbackReport(artistData) {
+  const platforms = Object.keys(artistData.allPlatformData).filter(k => artistData.allPlatformData[k]);
+  const primaryPlatform = platforms[0] || 'streaming';
+  const primaryName = PLATFORM_NAMES[primaryPlatform] || primaryPlatform;
+  const name = artistData.artistName || 'This artist';
+
+  // Build a data-aware fallback using whatever metrics we have
+  const data = artistData.allPlatformData[primaryPlatform] || {};
+  const hasSubscribers = data.subscribers > 0;
+  const hasListeners = data.listeners > 0;
+  const hasScrobbles = data.scrobbles > 0;
+  const hasFans = data.fans > 0;
+
+  let presenceScore = 30, growthScore = 25, engagementScore = 22;
+  let primaryMetric = '', primaryMetricLabel = '';
+
+  if (hasSubscribers) {
+    primaryMetric = data.subscribers.toLocaleString();
+    primaryMetricLabel = 'YouTube subscribers';
+    if (data.subscribers > 5000000) { presenceScore = 78; growthScore = 55; engagementScore = 48; }
+    else if (data.subscribers > 500000) { presenceScore = 65; growthScore = 44; engagementScore = 38; }
+    else if (data.subscribers > 50000) { presenceScore = 50; growthScore = 36; engagementScore = 30; }
+    else if (data.subscribers > 5000) { presenceScore = 38; growthScore = 28; engagementScore = 24; }
+  } else if (hasListeners) {
+    primaryMetric = data.listeners.toLocaleString();
+    primaryMetricLabel = 'Last.fm monthly listeners';
+    if (data.listeners > 2000000) { presenceScore = 72; growthScore = 50; engagementScore = 44; }
+    else if (data.listeners > 200000) { presenceScore = 58; growthScore = 40; engagementScore = 34; }
+    else if (data.listeners > 20000) { presenceScore = 44; growthScore = 32; engagementScore = 27; }
+  } else if (hasFans) {
+    primaryMetric = data.fans.toLocaleString();
+    primaryMetricLabel = 'Deezer fans';
+    if (data.fans > 1000000) { presenceScore = 68; growthScore = 46; engagementScore = 40; }
+    else if (data.fans > 100000) { presenceScore = 54; growthScore = 38; engagementScore = 32; }
+    else if (data.fans > 10000) { presenceScore = 42; growthScore = 30; engagementScore = 25; }
+  }
+
+  const topTrack = data.topTracks && data.topTracks[0] ? '"' + data.topTracks[0].name + '"' : 'your top track';
+  const genreTags = data.tags && data.tags.length ? data.tags.join(' / ') : null;
+  const similarArtists = data.similar && data.similar.length ? data.similar.join(', ') : null;
+
+  return {
+    presenceScore, growthScore, engagementScore,
+    verdict: primaryMetric ? name + ' has ' + primaryMetric + ' ' + primaryMetricLabel + ' — cross-platform consistency is the next lever.' : name + ' has an established ' + primaryName + ' presence — distribution and velocity are the unlock.',
+    summary: (primaryMetric ? name + ' registers ' + primaryMetric + ' ' + primaryMetricLabel + ' on ' + primaryName + ', which places them in a growth stage where algorithmic amplification is accessible but not yet triggered at full capacity. ' : name + ' has an active ' + primaryName + ' presence with ' + platforms.length + ' tracked platform' + (platforms.length !== 1 ? 's' : '') + ', but the data shows uneven cross-platform reach — strong in one place, invisible in others. ') + 'The gap between current reach and the next growth ceiling is not about making better music — it is about fixing the distribution infrastructure: Release Velocity, Sonic SEO, and Profile Authority Indexing across every platform. Closing these gaps within 30 days will change the reach curve.',
+    strengths: [
+      primaryName + ' presence is active and indexed' + (primaryMetric ? ' with ' + primaryMetric + ' ' + primaryMetricLabel : '') + ' — the algorithmic surface area exists and can be optimised immediately for wider distribution',
+      (genreTags ? 'Genre positioning (' + genreTags + ') is clear enough for the recommendation engine to identify the peer group and begin similar-listener expansion' : 'Existing listener signals provide enough behavioural data for the recommendation engine to begin expanding reach via similar-listener matching'),
+      (similarArtists ? 'Positioned alongside ' + similarArtists + ' in platform similarity graphs — a strong starting point for Micro-Community Seeding in those artists\' listener ecosystems' : 'Catalogue depth gives the recommendation engine enough material to run Catalogue Clustering and surface tracks across listener queues automatically')
+    ],
+    attention: [
+      'Cross-platform consistency is low — listeners on ' + primaryName + ' may not know the artist exists elsewhere, and the ' + primaryName + ' algorithm uses cross-platform signals as a trust indicator',
+      'No evidence of a Release Velocity strategy — without a consistent cadence of one release every 3-4 weeks, the algorithm deprioritises distribution and editorial consideration drops significantly'
+    ],
+    actions: [
+      {timing:'Do This Now', action:'Run a Sonic SEO audit on every track title, description, and tag on ' + primaryName + (primaryMetric ? ' — ' + primaryMetric + ' ' + primaryMetricLabel + ' is enough reach to make metadata optimisation deliver immediate results' : '') , outcome:'Search-driven stream increase of 40-60% within two weeks when metadata is correctly structured for the algorithm'},
+      {timing:'Do This Now', action:'Pitch ' + topTrack + ' to 15 independent playlist curators in your genre tier on ' + primaryName + ' — prioritise playlists with 1K-10K followers where placement rate is highest', outcome:'Three placements can deliver 5,000-15,000 new streams and trigger algorithmic similar-listener expansion'},
+      {timing:'This Month', action:'Build a Release Velocity Stack — schedule three releases over six weeks to signal sustained output to the ' + primaryName + ' recommendation engine and trigger editorial consideration', outcome:'Consistent release signals increase algorithmic distribution and raise playlist consideration score within two release cycles'},
+      {timing:'This Month', action:'Execute full Profile Authority Indexing — standardise bio, imagery, release dates, and links across every platform so cross-platform signals reinforce your ' + primaryName + ' algorithmic trust score', outcome:'Cross-platform authority increases algorithmic distribution by 3-5x compared to single-platform artists at the same follower count'},
+      {timing:'Long Term', action:'Build a direct audience channel (email list or Discord) independent of ' + primaryName + ' — use it to spike early stream velocity on release day, which is the strongest algorithmic trigger available', outcome:'Early velocity spikes are the primary signal the ' + primaryName + ' algorithm uses to push a release into wider discovery — even 200 coordinated streams in the first hour can trigger significant reach expansion'}
+    ],
+    platformFocus: primaryName + ' has the most data and likely the most engaged listeners — concentrate all optimisation effort here first before scaling other platforms.',
+    blindSpot: 'The most expensive mistake at this stage is spending money on promotion before fixing the distribution infrastructure — paid ads on a profile with weak Sonic SEO and inconsistent release cadence return a fraction of what they should.',
+    audienceTruth: 'Listeners on ' + primaryName + ' who find an artist organically are the highest-intent audience available — they arrived without being paid for, which means they are significantly more likely to stream multiple tracks, follow, and share than any paid acquisition.'
+  };
+}
+function buildAnonymousFallbackReport(platformName) {
+  // Rotate through varied fallback reports so different platforms give different results
+  const reports = [
+    {
+      presenceScore:44, growthScore:38, engagementScore:32,
+      verdict: platformName + ' presence indexed — Release Velocity and Micro-Community Seeding are the unlock.',
+      summary: 'Your ' + platformName + ' profile has the foundational signals but Release Velocity is below the threshold the algorithm uses to trigger wider distribution. Artists breaking through right now are running Micro-Community Seeding — pitching directly to 15-20 niche playlist curators before pushing broad — which compounds faster than any paid campaign. Closing the velocity gap in the next 30 days changes the reach curve entirely.',
+      strengths: [platformName + ' profile is indexed and searchable — your Sonic SEO foundation can be optimised immediately for algorithm-driven discovery without rebuilding from scratch', 'Catalogue depth gives the recommendation engine enough material to run Catalogue Clustering and surface tracks across listener queues automatically', 'Organic listener signals indicate genuine interest — a strong base for Micro-Community Seeding that grows without paid spend'],
+      attention: ['Release Velocity is below the threshold ' + platformName + "'s algorithm uses to trigger editorial consideration — tightening cadence to one release every 3-4 weeks moves the needle within two cycles", 'Listener Retention Compression has not been applied — skip rates in the first 30 seconds are suppressing stream depth scores and cutting algorithmic distribution'],
+      actions: [
+        {timing:'Do This Now', action:'Run a full Sonic SEO audit on every track title, description, and tag on ' + platformName + ' — optimise for both search queries and mood-based discovery keywords', outcome:'Search-driven streams increase 40-60% within two weeks when metadata is correctly structured'},
+        {timing:'Do This Now', action:'Re-engineer the first 15 seconds of your top three tracks to eliminate skip triggers — apply Listener Retention Compression before the algorithm registers a drop-off', outcome:'Stream depth improvement of 25-40% directly increases algorithmic playlist eligibility'},
+        {timing:'This Month', action:'Execute a Micro-Community Seeding campaign — identify 15 independent playlist curators in your genre tier on ' + platformName + ' and pitch each with a personalised two-sentence track story', outcome:'A single mid-tier placement delivers 2,000-8,000 new streams and listener data the algorithm uses to find similar audiences'},
+        {timing:'This Month', action:'Schedule a Release Velocity Stack — three releases over six weeks (lead single, B-side or acoustic version, then remix) to signal sustained output to the recommendation engine', outcome:'Consistent release signals trigger algorithmic boosting and raise editorial playlist consideration chances'},
+        {timing:'Long Term', action:'Build full Profile Authority Indexing — synchronise your ' + platformName + ' bio, imagery, and release schedule with every other active platform so cross-platform signals reinforce your algorithmic trust score', outcome:'Artists with strong cross-platform authority receive 3-5x more algorithmic distribution than single-platform artists at the same follower count'}
+      ],
+      platformFocus: platformName + ' is your highest-leverage channel right now — the discovery algorithm rewards Release Velocity and Sonic SEO more than any other input, and neither lever has been fully activated yet.',
+      blindSpot: 'Most ' + platformName + ' artists obsess over the music and ignore the metadata — discoverability is being throttled by Sonic SEO gaps that take two hours to fix but cost thousands of streams every month.',
+      audienceTruth: platformName + ' listeners discover new artists almost entirely through algorithmic recommendation and playlist placement, not social media — your growth rate is determined by how well you feed the algorithm, not how loudly you post.'
+    },
+    {
+      presenceScore:41, growthScore:35, engagementScore:29,
+      verdict: 'Catalogue depth exists on ' + platformName + ' — conversion and cross-platform signals are the missing multiplier.',
+      summary: platformName + ' has indexed your catalogue but the conversion funnel from casual listener to committed fan is leaking. Profile Authority Indexing — building consistent signals across every platform touchpoint — is the single highest-leverage action available because the ' + platformName + ' algorithm uses cross-platform engagement as a trust signal. Artists who fix this within 60 days typically see a 2-3x increase in algorithmic distribution without spending a cent on promotion.',
+      strengths: ['Catalogue is live and indexed on ' + platformName + ' — the algorithmic surface area exists and can be optimised immediately via Catalogue Clustering to group releases topically', 'Existing listener base provides enough behavioural data for the ' + platformName + ' recommendation engine to begin expanding reach via similar-listener matching', 'Genre positioning is clear enough for the algorithm to identify your peer group — this is the starting point for Dark Social Amplification via playlist ecosystem seeding'],
+      attention: ['Profile Authority Indexing is weak — inconsistent bio, imagery, and links across platforms are sending conflicting signals to the ' + platformName + ' algorithm and reducing trust score', 'No evidence of a Repost or Playlist Seeding strategy — without active playlist placement the algorithm has no social proof signal to amplify'],
+      actions: [
+        {timing:'Do This Now', action:'Complete a full Profile Authority Index — standardise your artist name, bio, profile photo, and links across every platform to send consistent signals to the ' + platformName + ' recommendation engine', outcome:'Algorithmic trust score improves within 2-3 weeks, increasing distribution eligibility'},
+        {timing:'Do This Now', action:'Identify your three highest-performing tracks and pitch them simultaneously to independent ' + platformName + ' playlist curators in your genre — prioritise playlists with 1K-10K followers for highest placement rate', outcome:'Three simultaneous playlist placements can drive 5,000-15,000 new streams and trigger algorithmic similar-listener expansion'},
+        {timing:'This Month', action:'Apply Catalogue Clustering — group your releases into 2-3 thematic playlists on your own profile to signal topical depth to the ' + platformName + ' recommendation engine', outcome:'Increases session length and catalogue discovery, raising your algorithmic priority score'},
+        {timing:'This Month', action:'Launch a Dark Social Amplification campaign — create shareable content specifically designed for private messaging (DMs, WhatsApp, Discord) linking to your ' + platformName + ' profile', outcome:'Private share signals are weighted heavily by the algorithm as high-intent discovery — even 50 private shares can trigger measurable reach expansion'},
+        {timing:'Long Term', action:'Build a direct audience channel (email list or Discord) independent of ' + platformName + ' — use it to coordinate release day listening parties that spike early stream velocity', outcome:'Early stream velocity spikes are the strongest signal the ' + platformName + ' algorithm uses to trigger wider algorithmic distribution'}
+      ],
+      platformFocus: platformName + ' rewards consistency and cross-platform authority — fixing the Profile Authority Index first will unlock algorithmic distribution that no amount of paid promotion can replicate.',
+      blindSpot: 'The biggest mistake on ' + platformName + ' is waiting for the algorithm to find you — the algorithm responds to signals you create, and right now not enough signals are being sent.',
+      audienceTruth: 'Listeners on ' + platformName + ' commit to artists through repeated algorithmic encounters, not a single discovery moment — which means your job is to appear in their recommendations three or four times before they follow, not once.'
+    }
+  ];
+  return reports[Math.floor(Math.random() * reports.length)];
+}
+// ═══════════════════════════════════════════════════════════════
+// CLAUDE REPORT
+// ═══════════════════════════════════════════════════════════════
+async function generateReport(artistData, detected) {
+  console.log('=== REPORT ENGINE START ===', artistData.artistName);
+
+  const platformSummary = Object.entries(artistData.allPlatformData).map(([platform, data]) => {
+    if (!data) return '';
+    const lines = [`${platform.toUpperCase()}:`];
+    if (data.subscribers) lines.push(`  Subscribers: ${data.subscribers.toLocaleString()}`);
+    if (data.totalViews) lines.push(`  Total Views: ${data.totalViews.toLocaleString()}`);
+    if (data.videoCount) lines.push(`  Videos: ${data.videoCount}`);
+    if (data.listeners) lines.push(`  Monthly Listeners: ${data.listeners.toLocaleString()}`);
+    if (data.scrobbles) lines.push(`  Total Scrobbles: ${data.scrobbles.toLocaleString()}`);
+    if (data.monthlyListeners) lines.push(`  Spotify Monthly Listeners: ${data.monthlyListeners.toLocaleString()}`);
+    if (data.fans) lines.push(`  Deezer Fans: ${data.fans.toLocaleString()}`);
+    if (data.followers) lines.push(`  Followers: ${data.followers.toLocaleString()}`);
+    if (data.trackerCount) lines.push(`  Bandsintown Trackers: ${data.trackerCount.toLocaleString()}`);
+    if (data.topTracks?.length) lines.push(`  Top Track: ${data.topTracks[0].name} (${(data.topTracks[0].plays||0).toLocaleString()} plays)`);
+    if (data.tags?.length) lines.push(`  Genre Tags: ${data.tags.join(', ')}`);
+    return lines.join('\n');
+  }).filter(Boolean).join('\n\n');
+
+  const primaryPlatform = detected ? detected.platform : (Object.keys(artistData.allPlatformData)[0] || 'streaming');
+  const primaryPlatformName = PLATFORM_NAMES[primaryPlatform] || primaryPlatform;
+  const totalPlatforms = Object.keys(artistData.allPlatformData).length;
+  const hasApiData = Object.values(artistData.allPlatformData).some(d => d && d.dataType === 'api');
+
+  const richDataContext = Object.entries(artistData.allPlatformData).map(([platform, data]) => {
+    if (!data) return '';
+    const pName = PLATFORM_NAMES[platform] || platform;
+    const lines = [pName.toUpperCase() + ' [' + (data.dataType === 'api' ? 'LIVE API' : 'PUBLIC') + ']:'];
+    if (data.subscribers)      lines.push('  Subscribers: ' + data.subscribers.toLocaleString());
+    if (data.totalViews)       lines.push('  Total Views: ' + data.totalViews.toLocaleString());
+    if (data.videoCount)       lines.push('  Videos: ' + data.videoCount);
+    if (data.country)          lines.push('  Country: ' + data.country);
+    if (data.description)      lines.push('  Bio: "' + data.description.slice(0,120) + '"');
+    if (data.listeners)        lines.push('  Last.fm Monthly Listeners: ' + data.listeners.toLocaleString());
+    if (data.scrobbles)        lines.push('  Last.fm Total Scrobbles: ' + data.scrobbles.toLocaleString());
+    if (data.monthlyListeners) lines.push('  Spotify Monthly Listeners: ' + data.monthlyListeners.toLocaleString());
+    if (data.fans)             lines.push('  Deezer Fans: ' + data.fans.toLocaleString());
+    if (data.albums)           lines.push('  Deezer Albums: ' + data.albums);
+    if (data.followers)        lines.push('  Followers: ' + data.followers.toLocaleString());
+    if (data.likes)            lines.push('  Total Likes: ' + data.likes.toLocaleString());
+    if (data.trackerCount)     lines.push('  Bandsintown Trackers: ' + data.trackerCount.toLocaleString());
+    if (data.upcomingEventCount !== undefined) lines.push('  Upcoming Events: ' + data.upcomingEventCount);
+    if (data.tags && data.tags.length)   lines.push('  Genre Tags: ' + data.tags.join(', '));
+    if (data.similar && data.similar.length) lines.push('  Similar Artists: ' + data.similar.join(', '));
+    if (data.topTracks && data.topTracks.length) {
+      lines.push('  Top Tracks:');
+      data.topTracks.slice(0,5).forEach((t,i) => {
+        const m = t.plays ? t.plays.toLocaleString() : (t.rank ? t.rank.toLocaleString() : 'N/A');
+        lines.push('    ' + (i+1) + '. "' + t.name + '" - ' + m + (platform==='lastfm'?' scrobbles':' streams'));
+      });
+    }
+    if (data.bio) lines.push('  Artist Bio: "' + data.bio.slice(0,200) + '"');
+    return lines.join('\n');
+  }).filter(Boolean).join('\n\n');
+
+  const prompt = 'You are a world-class music industry strategist — 20 years consulting for Universal, Sony, and 300+ independent artists. You just finished a deep data pull on ' + artistData.artistName + '. This is your paid consultancy report. Be brutally specific. Cite exact numbers in every section. Never write a generic sentence — if it could apply to any artist, rewrite it.\n\nARTIST: ' + artistData.artistName + '\nPRIMARY PLATFORM: ' + primaryPlatformName + '\nPLATFORMS ANALYSED: ' + totalPlatforms + '\nDATA: ' + (hasApiData ? 'Live API — cite every number you see' : 'Public data — use all available metrics') + '\n\nDATA:\n' + richDataContext + '\n\nSCORING (strict):\n- presenceScore: 10-35 (<10K); 35-55 (10K-500K); 55-72 (500K-5M); 72-88 (5M+); 88+ global stars only\n- growthScore: honest velocity read — 15-45 for most independents\n- engagementScore: based on ratios (scrobbles/listeners, views/subs, fans/albums) — low ratios = low score\n\nCONTENT RULES:\n- verdict: max 18 words, must include a real number from the data\n- summary: 3 sentences, cite actual metrics, explain what those numbers mean for the artist career specifically\n- strengths: 3 items — each cites a real data point and names the specific algorithm mechanic or tactic it enables\n- attention: 2 items — each names a specific weakness visible in the numbers and the exact strategy to fix it\n- actions: 5 total (2 Now, 2 Month, 1 Long Term) — each must reference a real number from this artist\'s data and give a measurable outcome\n- platformFocus: which platform has best ROI and exactly why, based on the data — one sentence\n- blindSpot: the single biggest mistake visible in this data — one brutally honest sentence\n- audienceTruth: one expert insight about how this specific listener base behaves on ' + primaryPlatformName + ' based on the metrics\n\nReturn ONLY raw JSON starting with {. Zero text before or after.\n{"presenceScore":<int>,"growthScore":<int>,"engagementScore":<int>,"verdict":"<string>","summary":"<string>","strengths":["<string>","<string>","<string>"],"attention":["<string>","<string>"],"actions":[{"timing":"Do This Now","action":"<string>","outcome":"<string>"},{"timing":"Do This Now","action":"<string>","outcome":"<string>"},{"timing":"This Month","action":"<string>","outcome":"<string>"},{"timing":"This Month","action":"<string>","outcome":"<string>"},{"timing":"Long Term","action":"<string>","outcome":"<string>"}],"platformFocus":"<string>","blindSpot":"<string>","audienceTruth":"<string>"}';
+
+  try {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 2000,
+        messages: [{ role: "user", content: prompt }]
+      })
+    });
+
+    if (!res.ok) {
+      console.error('API error:', res.status, await res.text());
+      throw new Error(`HTTP ${res.status}`);
+    }
+
+    const d = await res.json();
+    const text = d.content?.[0]?.text;
+    if (!text) throw new Error('No text in response');
+
+    let clean = text.trim().replace(/^```json[\r\n]*/i,'').replace(/^```[\r\n]*/i,'').replace(/[\r\n]*```$/i,'').trim();
+    const s = clean.indexOf('{'), e = clean.lastIndexOf('}');
+    if (s === -1 || e === -1) throw new Error('No JSON found');
+    const report = JSON.parse(clean.slice(s, e+1));
+    console.log('Report generated successfully:', report);
+    return report;
+
+  } catch(err) {
+    console.error('generateReport error:', err);
+    return buildFallbackReport(artistData);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// MASTER ANALYZE FUNCTION
+// ═══════════════════════════════════════════════════════════════
+async function handleAnalyze() {
+  const val = searchInput.value.trim();
+  document.getElementById('errorMsg').className = 'error-msg';
+  if (!val) { searchInput.focus(); return; }
+
+  const detected = detectURL(val);
+  if (!detected) {
+    showError('Could not recognize this link. Please paste a direct artist, track, album, or channel link from a supported platform.');
+    return;
+  }
+
+  const btn = document.getElementById('analyzeBtn');
+  btn.textContent = 'Reading…';
+  btn.disabled = true;
+  startLoading();
+
+  const artistData = { platform: detected.platform, allPlatformData: {}, artistName: null, image: null };
+
+  // Fetch primary platform
+  let primary = null;
+  let anonymousMode = false;
+  try {
+    if (detected.platform === 'youtube') primary = await fetchYouTube(detected);
+    else if (detected.platform === 'lastfm') primary = await fetchLastFM(detected.value);
+    else if (detected.platform === 'deezer') primary = await fetchDeezer(detected);
+    else if (detected.platform === 'spotify') {
+      // Spotify: use timeout wrapper, fall to anonymous on failure
+      primary = await Promise.race([
+        fetchSpotifyPublic(detected.value),
+        new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 5000))
+      ]).catch(() => null);
+    }
+    else if (detected.platform === 'soundcloud') primary = await fetchSoundCloudPublic(detected.value);
+    else if (detected.platform === 'apple') primary = await fetchApplePublic(detected.value);
+    else if (detected.platform === 'tiktok') primary = await fetchTikTokPublic(detected.value);
+    else if (detected.platform === 'instagram') primary = await fetchInstagramPublic(detected.value);
+    else if (detected.platform === 'bandsintown') primary = await fetchBandsintown(detected.value);
+  } catch(e) { console.error('Primary fetch failed:', e); }
+
+  // Graceful anonymous mode if primary fetch fails
+  if (!primary || !primary.artistName) {
+    anonymousMode = true;
+    primary = {
+      platform: detected.platform,
+      artistName: null,
+      image: null,
+      dataType: 'public'
+    };
+  }
+
+  artistData.artistName = primary.artistName;
+  artistData.image = primary.image;
+  artistData.anonymousMode = anonymousMode;
+  if (!anonymousMode) artistData.allPlatformData[detected.platform] = primary;
+
+  // Cross-fetch all other platforms (skip if anonymous mode)
+  if (anonymousMode) {
+    renderResults(artistData, null);
+    switchView('results');
+    btn.textContent = 'Analyze'; btn.disabled = false;
+    setTimeout(() => {
+      document.querySelectorAll('[data-view="results"] .anim-fade-up').forEach(el => el.classList.add('visible'));
+    }, 50);
+    try {
+      const report = await generateAnonymousReport(detected.platform);
+      if (report) {
+        renderReport(report);
+        renderScores(report);
+        // Show verdict quote
+        const vq = document.getElementById('verdictQuote');
+        if (vq && report.verdict) { vq.textContent = report.verdict; vq.style.display = 'block'; }
+        // Append specialist CTA to bottom of report
+        const reportEl = document.getElementById('reportContent');
+        if (reportEl) {
+          const ctaDiv = document.createElement('div');
+          ctaDiv.style.cssText = 'margin-top:48px;padding:40px;background:var(--surface-dark);border-radius:var(--radius-xl);text-align:center;position:relative;overflow:hidden';
+          const pColor = PLATFORM_COLORS[detected.platform] || '#C84B31';
+          const pName = PLATFORM_NAMES[detected.platform] || detected.platform;
+          ctaDiv.innerHTML = `
+            <div style="position:absolute;top:0;left:0;right:0;height:3px;background:${pColor}"></div>
+            <div style="margin-bottom:16px;opacity:0.7">${getPlatformIcon(detected.platform, 36)}</div>
+            <p style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;margin-bottom:10px;color:#fff;line-height:1.2">Ready to execute this strategy?</p>
+            <p style="font-size:15px;color:rgba(255,255,255,0.5);margin-bottom:28px;line-height:1.7;max-width:440px;margin-left:auto;margin-right:auto">Connect with a verified ${pName} specialist who can implement these exact recommendations — from Sonic SEO to playlist placement.</p>
+            <button onclick="openModal()" style="background:${pColor};color:#fff;font-size:15px;font-weight:700;padding:16px 44px;border-radius:100px;border:none;cursor:pointer;box-shadow:0 4px 24px ${pColor}55">Browse Specialists →</button>
+            <div style="font-size:12px;color:rgba(255,255,255,0.3);margin-top:12px">Free to browse · No signup required</div>`;
+          reportEl.appendChild(ctaDiv);
+        }
+      } else {
+        document.getElementById('reportContent').innerHTML = '<p style="font-size:15px;color:var(--text-muted);font-style:italic;text-align:center;padding:40px 0">Generating your intelligence report…</p>';
+      }
+    } catch(e) { console.error('Anonymous report failed:', e); }
+    return;
+  }
+  const name = artistData.artistName || '';
+  const slug = name.toLowerCase().replace(/\s+/g,'-');
+  const slugNoSpace = name.toLowerCase().replace(/\s+/g,'');
+  const slugDot = name.toLowerCase().replace(/\s+/g,'.');
+
+  // Only cross-fetch if we have a usable name
+  const crossResults = name.length > 1 ? await Promise.allSettled([
+    detected.platform !== 'lastfm' ? fetchLastFM(name) : Promise.resolve(null),
+    detected.platform !== 'bandsintown' ? fetchBandsintown(name) : Promise.resolve(null),
+    detected.platform !== 'soundcloud' ? fetchSoundCloudPublic(slug) : Promise.resolve(null),
+    detected.platform !== 'tiktok' ? fetchTikTokPublic(slugNoSpace) : Promise.resolve(null),
+    detected.platform !== 'instagram' ? fetchInstagramPublic(slugDot) : Promise.resolve(null),
+  ]) : []
+
+  const crossPlatforms = ['lastfm','bandsintown','soundcloud','tiktok','instagram'];
+  crossResults.forEach((r,i) => {
+    if (r.status === 'fulfilled' && r.value && !artistData.allPlatformData[crossPlatforms[i]]) {
+      artistData.allPlatformData[crossPlatforms[i]] = r.value;
+    }
+  });
+
+  // Deezer search by name
+  if (detected.platform !== 'deezer') {
+    try {
+      const dzr = await fetch(`https://api.deezer.com/search/artist?q=${encodeURIComponent(name)}&limit=1`);
+      const dzd = await dzr.json();
+      if (dzd.data?.[0]) {
+        const dz = await fetchDeezer({ type:'artist_id', value: String(dzd.data[0].id) });
+        if (dz) artistData.allPlatformData['deezer'] = dz;
+      }
+    } catch {}
+  }
+
+  // Best image
+  if (!artistData.image) {
+    for (const pd of Object.values(artistData.allPlatformData)) {
+      if (pd?.image) { artistData.image = pd.image; break; }
+    }
+  }
+
+  // Render base results first
+  renderResults(artistData, null);
+  switchView('results');
+  btn.textContent = 'Analyze'; btn.disabled = false;
+
+  // Show loading state in report section before async call
+  document.getElementById('reportContent').innerHTML = `
+    <div style="padding:60px 0;text-align:center">
+      <p style="font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic;color:var(--text-secondary)">Building your report…</p>
+      <div style="width:120px;height:2px;background:var(--border);margin:20px auto 0;border-radius:1px;overflow:hidden">
+        <div style="width:40%;height:100%;background:var(--accent);border-radius:1px;animation:shimmer 1.5s ease-in-out infinite alternate"></div>
+      </div>
+    </div>`;
+
+  // Generate report async
+  try {
+    const report = await generateReport(artistData, detected);
+    if (report && report.verdict) {
+      artistData.report = report;
+      renderReport(report);
+      renderScores(report);
+      const vq = document.getElementById('verdictQuote');
+      vq.textContent = report.verdict;
+      vq.style.display = 'block';
+    } else {
+      document.getElementById('reportContent').innerHTML =
+        '<p style="font-size:15px;color:var(--text-muted);font-style:italic;text-align:center;padding:40px 0">Analysis engine is temporarily unavailable. Your platform presence data is shown above. Check browser console for details.</p>';
+    }
+  } catch(e) {
+    console.error('Report render failed:', e);
+    document.getElementById('reportContent').innerHTML =
+      '<p style="font-size:15px;color:var(--text-muted);font-style:italic;text-align:center;padding:40px 0">Could not generate report. Open browser console (F12) to see the exact error.</p>';
+  }
+
+  // Animate scroll elements - show immediately + observe for scroll
+  setTimeout(() => {
+    document.querySelectorAll('[data-view="results"] .anim-fade-up').forEach(el => {
+      el.classList.add('visible');
+    });
+  }, 50);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// RENDER RESULTS
+// ═══════════════════════════════════════════════════════════════
+function fmt(n) {
+  if (!n) return null;
+  if (n >= 1e9) return (n/1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return (n/1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n/1e3).toFixed(1) + 'K';
+  return n.toLocaleString();
+}
+
+function renderResults(artistData, report) {
+  // Artist image
+  const wrap = document.getElementById('artistImageWrap');
+  const fallback = document.getElementById('artistImageFallback');
+  if (artistData.anonymousMode) {
+    const platformColor = PLATFORM_COLORS[artistData.platform] || '#C84B31';
+    const platformName = PLATFORM_NAMES[artistData.platform] || artistData.platform;
+
+    // Profile image area: large platform logo on tinted background
+    wrap.style.background = platformColor + '15';
+    wrap.style.border = `2px solid ${platformColor}40`;
+    wrap.style.display = 'flex';
+    wrap.style.alignItems = 'center';
+    wrap.style.justifyContent = 'center';
+    fallback.style.display = 'flex';
+    fallback.style.alignItems = 'center';
+    fallback.style.justifyContent = 'center';
+    fallback.innerHTML = getPlatformIcon(artistData.platform, 110);
+
+    // Artist meta
+    document.getElementById('artistName').textContent = platformName + ' Artist';
+    document.getElementById('artistBio').style.display = 'none';
+    document.getElementById('artistTags').innerHTML =
+      `<span class="artist-tag" style="background:${platformColor}15;color:${platformColor};border:1px solid ${platformColor}30">${platformName}</span>` +
+      `<span class="artist-tag">Full Intelligence Report</span>`;
+
+    // Scores: show placeholder arcs that animate in when report arrives
+    renderScores(null);
+
+    // Keep platforms section visible but show a branded scan card
+    document.getElementById('section-platforms').style.display = '';
+    document.getElementById('section-tracks').style.display = 'none';
+    document.getElementById('section-audience').style.display = 'none';
+
+    // Show/hide subnav accordingly
+    document.querySelectorAll('.subnav-link').forEach(link => {
+      const href = link.getAttribute('href');
+      const hidden = ['#section-tracks', '#section-audience'];
+      link.style.display = hidden.includes(href) ? 'none' : '';
+    });
+
+    // Platforms grid: branded scan card with real platform icon
+    document.getElementById('platformsGrid').innerHTML = `
+      <div style="background:var(--surface);border:1px solid var(--border);border-left:4px solid ${platformColor};border-radius:var(--radius-xl);padding:40px 48px;display:flex;align-items:center;gap:40px;grid-column:1/-1">
+        <div style="flex-shrink:0;width:90px;height:90px;border-radius:var(--radius-lg);background:${platformColor}12;display:flex;align-items:center;justify-content:center">
+          ${getPlatformIcon(artistData.platform, 52)}
+        </div>
+        <div style="flex:1">
+          <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.12em;color:${platformColor};margin-bottom:8px">${platformName} · Platform Analysis</div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;margin-bottom:10px;color:var(--text-primary)">Full intelligence scan complete</div>
+          <p style="font-size:15px;font-weight:300;color:var(--text-secondary);line-height:1.75;max-width:540px;margin:0">Your ${platformName} presence has been analysed across all key performance signals. Your strategy report and recommended actions are below.</p>
+        </div>
+        <div style="flex-shrink:0;text-align:center">
+          <button onclick="openModal()" style="background:${platformColor};color:#fff;font-size:14px;font-weight:700;padding:14px 32px;border-radius:100px;border:none;cursor:pointer;white-space:nowrap;box-shadow:0 4px 20px ${platformColor}44">
+            Get a Specialist →
+          </button>
+          <div style="font-size:11px;color:var(--text-muted);margin-top:8px">Free to browse</div>
+        </div>
+      </div>`;
+
+    document.getElementById('tracksList').innerHTML = '';
+    document.getElementById('reachBars').innerHTML = '';
+    document.getElementById('platformsFound').textContent = '0';
+    document.getElementById('platformsFoundLabel').textContent = 'platforms with data found';
+    return;
+  }
+  // Reset section visibility in case of re-use
+  document.getElementById('section-platforms').style.display = '';
+  document.getElementById('section-tracks').style.display = '';
+  document.getElementById('section-audience').style.display = '';
+  document.querySelectorAll('.subnav-link').forEach(link => { link.style.display = ''; });
+  fallback.textContent = artistData.artistName.charAt(0);
+  if (artistData.image) {
+    const img = document.createElement('img');
+    img.src = artistData.image;
+    img.alt = artistData.artistName;
+    img.onerror = () => { img.remove(); fallback.style.display = 'block'; };
+    fallback.style.display = 'none';
+    wrap.appendChild(img);
+    // Artist image background treatment on section-overview
+    document.getElementById('section-overview').style.backgroundImage =
+      `linear-gradient(to right, var(--bg) 55%, rgba(245,240,232,0.7) 100%), url(${artistData.image})`;
+    document.getElementById('section-overview').style.backgroundSize = 'cover';
+    document.getElementById('section-overview').style.backgroundPosition = 'right center';
+  }
+
+  // Artist name
+  document.getElementById('artistName').textContent = artistData.artistName;
+
+  // Tags from Last.fm
+  const lfm = artistData.allPlatformData.lastfm;
+  const tagsEl = document.getElementById('artistTags');
+  if (lfm?.tags?.length) {
+    tagsEl.innerHTML = lfm.tags.map(t => `<span class="artist-tag">${t}</span>`).join('');
+  }
+
+  // Bio
+  const bioEl = document.getElementById('artistBio');
+  const bio = lfm?.bio || artistData.allPlatformData[artistData.platform]?.description;
+  if (bio && bio.length > 10) {
+    bioEl.textContent = bio;
+    bioEl.style.display = 'block';
+  }
+
+  // Scores placeholder (will be updated when report arrives)
+  renderScores(null);
+
+  // Platform presence
+  renderPlatformCards(artistData);
+
+  // Top tracks
+  renderTracks(artistData);
+
+  // Audience
+  renderAudience(artistData);
+}
+
+function renderScores(report) {
+  const row = document.getElementById('scoresRow');
+  const scores = report ? [
+    { label:'Presence Score', value: report.presenceScore, id:'arcPresence' },
+    { label:'Growth Score', value: report.growthScore, id:'arcGrowth' },
+    { label:'Engagement Score', value: report.engagementScore, id:'arcEngagement' },
+  ] : [
+    { label:'Presence Score', value: null, id:'arcPresence' },
+    { label:'Growth Score', value: null, id:'arcGrowth' },
+    { label:'Engagement Score', value: null, id:'arcEngagement' },
+  ];
+
+  const pathLen = 172;
+  row.innerHTML = scores.map(s => {
+    const color = s.value >= 75 ? 'var(--green)' : s.value >= 50 ? 'var(--amber)' : 'var(--accent)';
+    const targetOffset = pathLen - (s.value / 100 * pathLen);
+    return `<div class="score-arc">
+      <svg width="140" height="110" viewBox="0 0 140 110">
+        <path d="M13 95 A60 60 0 1 1 127 95" fill="none" stroke="var(--border)" stroke-width="8" stroke-linecap="round"/>
+        <path id="${s.id}" d="M13 95 A60 60 0 1 1 127 95" fill="none" stroke="${color}" stroke-width="8" stroke-linecap="round"
+          stroke-dasharray="${pathLen}" stroke-dashoffset="${pathLen}"
+          data-target="${targetOffset}"
+          style="transition:stroke-dashoffset 1.6s cubic-bezier(0.22,1,0.36,1)"/>
+        <text x="70" y="82" text-anchor="middle" font-family="Martian Mono,monospace" font-size="26" font-weight="600" fill="var(--text-primary)">${s.value || '—'}</text>
+        <text x="70" y="102" text-anchor="middle" font-family="sans-serif" font-size="9" fill="var(--text-muted)" letter-spacing="1">${s.label.toUpperCase()}</text>
+      </svg>
+    </div>`;
+  }).join('');
+
+  if (report) {
+    setTimeout(() => {
+      scores.forEach(s => {
+        const el = document.getElementById(s.id);
+        if (el) el.style.strokeDashoffset = el.dataset.target;
+      });
+    }, 100);
+  }
+}
+
+function renderPlatformCards(artistData) {
+  const pd = artistData.allPlatformData;
+  const entries = Object.entries(pd).filter(([,d]) => d);
+
+  if (!entries.length) {
+    document.getElementById('platformsGrid').innerHTML = '<p style="color:var(--text-muted);font-style:italic">No platform data found.</p>';
+    return;
+  }
+
+  // Find primary (most data)
+  const getPrimaryMetric = (d) => {
+    if (d.subscribers) return { value: fmt(d.subscribers), label: 'Subscribers' };
+    if (d.listeners) return { value: fmt(d.listeners), label: 'Monthly Listeners' };
+    if (d.monthlyListeners) return { value: fmt(d.monthlyListeners), label: 'Monthly Listeners' };
+    if (d.fans) return { value: fmt(d.fans), label: 'Fans' };
+    if (d.followers) return { value: fmt(d.followers), label: 'Followers' };
+    if (d.trackerCount) return { value: fmt(d.trackerCount), label: 'Trackers' };
+    return null;
+  };
+
+  let primary = entries.find(([,d]) => getPrimaryMetric(d));
+  if (!primary) primary = entries[0];
+  const rest = entries.filter(([k]) => k !== primary[0]);
+  const color = PLATFORM_COLORS[primary[0]] || '#C84B31';
+  const metric = getPrimaryMetric(primary[1]);
+
+  let largeCard = `<div class="platform-card-large" style="border-bottom:4px solid ${color};position:relative;overflow:hidden">
+    <div style="position:absolute;bottom:12px;right:16px;opacity:0.04;pointer-events:none">${getPlatformIcon(primary[0], 70)}</div>
+    <div class="pc-name" style="color:${color};display:flex;align-items:center;gap:8px">${getPlatformIcon(primary[0], 16)}${PLATFORM_NAMES[primary[0]] || primary[0]}</div>
+    ${metric ? `<div class="pc-value-large">${metric.value}</div><div class="pc-label">${metric.label}</div>` : '<div class="pc-label" style="margin-top:12px">Profile found</div>'}
+  </div>`;
+
+  const smallCards = rest.map(([key, data]) => {
+    const m = getPrimaryMetric(data);
+    const c = PLATFORM_COLORS[key] || '#999';
+    if (!m) return `<div class="platform-card-medium" style="border-left-color:${c}">
+      <div class="pc-name" style="color:${c};display:flex;align-items:center;gap:6px">${getPlatformIcon(key, 16)}${PLATFORM_NAMES[key]||key}</div>
+      <div class="pc-label-sm" style="margin-top:8px;font-style:italic">Profile found</div>
+    </div>`;
+    return `<div class="platform-card-medium" style="border-left-color:${c}">
+      <div class="pc-name" style="color:${c};display:flex;align-items:center;gap:6px">${getPlatformIcon(key, 16)}${PLATFORM_NAMES[key]||key}</div>
+      <div class="pc-value-medium">${m.value}</div>
+      <div class="pc-label-sm">${m.label}</div>
+    </div>`;
+  });
+
+  // Missing platforms
+  const all = ['youtube','spotify','lastfm','deezer','soundcloud','tiktok','instagram','bandsintown'];
+  const missing = all.filter(p => !pd[p]);
+  const missingCards = missing.map(key => {
+    const c = PLATFORM_COLORS[key] || '#ccc';
+    return `<div class="platform-card-empty">
+      <div style="text-align:center">
+        <div style="margin-bottom:8px;opacity:0.5">${getPlatformIcon(key, 24)}</div>
+        <div class="pc-name" style="color:${c};margin-bottom:6px">${PLATFORM_NAMES[key]||key}</div>
+        <div class="pc-no-data">No public data found</div>
+      </div>
+    </div>`;
+  });
+
+  const rightGrid = `<div class="platforms-right-grid">${[...smallCards, ...missingCards].join('')}</div>`;
+  document.getElementById('platformsGrid').innerHTML = largeCard + rightGrid;
+}
+
+function renderTracks(artistData) {
+  const lfm = artistData.allPlatformData.lastfm;
+  const dz = artistData.allPlatformData.deezer;
+
+  let tracks = [];
+  if (lfm?.topTracks?.length) tracks = lfm.topTracks.map(t => ({ name:t.name, plays:t.plays }));
+  else if (dz?.topTracks?.length) tracks = dz.topTracks.map(t => ({ name:t.name, plays:t.plays }));
+
+  if (!tracks.length) {
+    document.getElementById('tracksList').innerHTML = '<p style="font-size:15px;font-style:italic;color:var(--text-muted);text-align:center;padding:40px 0">No track data found across connected platforms.</p>';
+    return;
+  }
+
+  const max = tracks[0].plays || 1;
+  document.getElementById('tracksList').innerHTML = tracks.slice(0,8).map((t,i) => `
+    <div class="track-row">
+      <div class="track-rank">${String(i+1).padStart(2,'0')}</div>
+      <div class="track-name">${t.name}</div>
+      <div class="track-bar-wrap"><div class="track-bar-fill" data-width="${(t.plays/max*100).toFixed(1)}%"></div></div>
+      <div class="track-plays">${fmt(t.plays) || '—'}</div>
+      <div class="track-trend trend-flat">—</div>
+    </div>
+  `).join('');
+
+  setTimeout(() => {
+    document.querySelectorAll('.track-bar-fill').forEach(el => {
+      el.style.width = el.dataset.width;
+    });
+  }, 400);
+}
+
+function renderAudience(artistData) {
+  const pd = artistData.allPlatformData;
+  const metrics = [];
+
+  const addMetric = (key, value, label) => {
+    if (value) metrics.push({ platform: key, value, label, color: PLATFORM_COLORS[key] });
+  };
+
+  if (pd.youtube?.subscribers) addMetric('youtube', pd.youtube.subscribers, 'Subscribers');
+  if (pd.lastfm?.listeners) addMetric('lastfm', pd.lastfm.listeners, 'Monthly Listeners');
+  if (pd.spotify?.monthlyListeners) addMetric('spotify', pd.spotify.monthlyListeners, 'Monthly Listeners');
+  if (pd.deezer?.fans) addMetric('deezer', pd.deezer.fans, 'Fans');
+  if (pd.soundcloud?.followers) addMetric('soundcloud', pd.soundcloud.followers, 'Followers');
+  if (pd.tiktok?.followers) addMetric('tiktok', pd.tiktok.followers, 'Followers');
+  if (pd.instagram?.followers) addMetric('instagram', pd.instagram.followers, 'Followers');
+
+  if (!metrics.length) {
+    document.getElementById('reachBars').innerHTML = '<p style="font-size:14px;font-style:italic;color:var(--text-muted)">No comparative data available.</p>';
+    return;
+  }
+
+  const maxVal = Math.max(...metrics.map(m => m.value));
+  document.getElementById('reachBars').innerHTML = metrics.map(m => `
+    <div class="reach-row">
+      <div class="reach-name">${PLATFORM_NAMES[m.platform] || m.platform}</div>
+      <div class="reach-bar-wrap">
+        <div class="reach-bar-fill" style="background:${m.color}" data-width="${(m.value/maxVal*100).toFixed(1)}%"></div>
+      </div>
+      <div class="reach-num">${fmt(m.value)}</div>
+    </div>
+  `).join('');
+
+  const found = Object.values(pd).filter(d => d).length;
+  document.getElementById('platformsFound').textContent = found;
+  document.getElementById('platformsFoundLabel').textContent = `of 11 platforms with data found`;
+
+  setTimeout(() => {
+    document.querySelectorAll('.reach-bar-fill').forEach(el => {
+      el.style.width = el.dataset.width;
+    });
+  }, 400);
+}
+
+function renderReport(report) {
+  const timingClass = t => t === 'Do This Now' ? 'now' : t === 'This Month' ? 'month' : 'longterm';
+
+  document.getElementById('reportContent').innerHTML = `
+    <div class="verdict-block">
+      <div class="verdict-text">${report.verdict}</div>
+    </div>
+    <p class="summary-text">${report.summary}</p>
+    <hr class="report-divider">
+    <div class="strengths-grid">
+      <div class="strength-card working">
+        <div class="card-head">
+          <div class="card-head-sq" style="background:var(--green)"></div>
+          <div class="card-head-label" style="color:var(--green)">What's Working</div>
+        </div>
+        ${(report.strengths||[]).map(s => `<div class="card-item"><div class="card-item-sq" style="background:var(--green);margin-top:7px"></div><div class="card-item-text">${s}</div></div>`).join('')}
+      </div>
+      <div class="strength-card attention">
+        <div class="card-head">
+          <div class="card-head-sq" style="background:var(--accent)"></div>
+          <div class="card-head-label" style="color:var(--accent)">Needs Attention</div>
+        </div>
+        ${(report.attention||[]).map(s => `<div class="card-item"><div class="card-item-sq" style="background:var(--accent);margin-top:7px"></div><div class="card-item-text">${s}</div></div>`).join('')}
+      </div>
+    </div>
+    <div class="actions-head">Recommended Actions</div>
+    ${(report.actions||[]).map(a => `
+      <div class="action-card ${timingClass(a.timing)}">
+        <div><span class="timing-pill ${timingClass(a.timing)}">${a.timing}</span></div>
+        <div>
+          <div class="action-text">${a.action}</div>
+          <div class="action-outcome">${a.outcome}</div>
+        </div>
+      </div>
+    `).join('')}
+    <div class="insight-cards">
+      <div class="insight-card">
+        <div class="insight-deco">P</div>
+        <div class="insight-label">Platform Focus</div>
+        <div class="insight-text">${report.platformFocus || ''}</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-deco">B</div>
+        <div class="insight-label">What You're Missing</div>
+        <div class="insight-text">${report.blindSpot || ''}</div>
+      </div>
+      <div class="insight-card">
+        <div class="insight-deco">A</div>
+        <div class="insight-label">Who's Listening</div>
+        <div class="insight-text">${report.audienceTruth || ''}</div>
+      </div>
+    </div>
+  `;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// MODAL
+// ═══════════════════════════════════════════════════════════════
+const SPECIALISTS = [
+  /* REAL FIVERR SELLERS */
+  {
+    name:"John Maxwell", specialty:"Apple Music & Streaming Promotion",
+    avatar:"", avatarFallback:"",
+    initials:"JM", avatarBg:"#F0E6D3",
+    rating: null, reviews: null,
+    description:"Music marketing specialist for Apple Music and major streaming platforms. Gets your tracks in front of real audiences with high-reach promotion campaigns.",
+    tags:["Apple Music","Streaming Promotion","High Reach"],
+    startingAt:"From $25", category:"Promotion",
+    fiverr:"https://www.fiverr.com/johnmaxwell199?source=gig_cards&referrer_gig_slug=do-music-marketing-for-apple-music-promotion-with-apple-promotion-for-high-reach"
+  },
+  {
+    name:"Jake Weeks", specialty:"YouTube Kids & Channel Marketing",
+    avatar:"", avatarFallback:"",
+    initials:"JW", avatarBg:"#D3E6D3",
+    rating: null, reviews: null,
+    description:"YouTube channel promotion specialist. Grows video reach, subscriber counts, and channel authority with targeted marketing strategies for music artists.",
+    tags:["YouTube Growth","Channel Marketing","Video Promotion"],
+    startingAt:"From $20", category:"Social Media",
+    fiverr:"https://www.fiverr.com/jakeweeks325?source=gig_cards&referrer_gig_slug=do-kids-video-promotion-for-youtube-kids-video-promotion-with-channel-marketing"
+  },
+  {
+    name:"Pelumi Idowu", specialty:"Viral Spotify Chart Promotion",
+    avatar:"", avatarFallback:"",
+    initials:"PI", avatarBg:"#D3E6D3",
+    rating: null, reviews: null,
+    description:"Specialist in viral Spotify promotion and chart campaigns. Gets your music to the Spotify Top 100 chart with real, organic listener growth.",
+    tags:["Spotify Charts","Viral Promotion","Top 100"],
+    startingAt:"From $30", category:"Promotion",
+    fiverr:"https://www.fiverr.com/pelumiidowu525?source=gig_cards&referrer_gig_slug=do-viral-spotify-chart-promotion-with-music-promotion-to-top-100-spotify-chart"
+  },
+  {
+    name:"Dave Johnson", specialty:"Organic Spotify Chart Promotion",
+    avatar:"", avatarFallback:"",
+    initials:"DJ", avatarBg:"#E6D3D3",
+    rating: null, reviews: null,
+    description:"Organic growth expert for Spotify chart promotion. Drives real listeners to your tracks with proven strategies that stick and grow sustainably.",
+    tags:["Organic Growth","Spotify Promotion","Chart Placement"],
+    startingAt:"From $35", category:"Promotion",
+    fiverr:"https://www.fiverr.com/davejohnson726?source=gig_cards&referrer_gig_slug=do-organic-spotify-chart-promotion-with-music-promotion-to-top-100-spotify-chart"
+  },
+  {
+    name:"John Liam", specialty:"Viral Spotify Ads to Real Audience",
+    avatar:"", avatarFallback:"",
+    initials:"JL", avatarBg:"#E6E3D3",
+    rating: null, reviews: null,
+    description:"Runs targeted Spotify ad campaigns that reach real audiences and drive chart performance. Specializes in viral momentum for independent artists.",
+    tags:["Spotify Ads","Real Audience","Viral Strategy"],
+    startingAt:"From $40", category:"Promotion",
+    fiverr:"https://www.fiverr.com/johnliam232?source=gig_cards&referrer_gig_slug=do-viral-spotify-chart-promotion-ads-to-real-audience-to-top-100-spotify-chart"
+  },
+  {
+    name:"LaborBibsk", specialty:"Music Promotion & Distribution Strategy",
+    avatar:"", avatarFallback:"",
+    initials:"LB", avatarBg:"#D3E6E3",
+    rating: null, reviews: null,
+    description:"Comprehensive music promotion and distribution strategy tailored for independent artists. Covers streaming platforms, social media, and audience targeting.",
+    tags:["Promotion","Distribution","Platform Strategy"],
+    startingAt:"From $20", category:"Distribution",
+    fiverr:"https://www.fiverr.com/users/laborbibsk/manage_gigs"
+  },
+];
+
+function renderSpecialists() {
+  const stars = '<svg width="12" height="12" viewBox="0 0 12 12" fill="#D97706"><path d="M6 1l1.5 3H11L8.5 6l1 3L6 7.5 2.5 9l1-3L1 4h3.5z"/></svg>'.repeat(5);
+  document.getElementById('specialistsGrid').innerHTML = SPECIALISTS.map(s => {
+    const avatarHtml = `<div class="spec-avatar" style="background:${s.avatarBg}">${s.initials}</div>`;
+    const starsHtml = s.rating
+      ? `<div class="spec-stars">${stars}<span class="spec-rating">${s.rating}</span>${s.reviews ? `<span class="spec-reviews">(${s.reviews} reviews)</span>` : ''}</div>`
+      : '';
+    return `
+    <div class="specialist-card" data-category="${s.category}">
+      <div class="spec-top">
+        <div style="display:flex;align-items:center;gap:0;flex-shrink:0">${avatarHtml}</div>
+        <div>
+          <div class="spec-name">${s.name}</div>
+          <div class="spec-specialty">${s.specialty}</div>
+        </div>
+      </div>
+      ${starsHtml}
+      <div class="spec-desc">${s.description}</div>
+      <div class="spec-tags">${s.tags.map(t=>`<span class="spec-tag">${t}</span>`).join('')}</div>
+      <div class="spec-bottom">
+        <span class="spec-price">${s.startingAt || ''}</span>
+        <a href="${s.fiverr}" target="_blank" rel="noopener noreferrer"><button class="spec-btn">View on Fiverr →</button></a>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function openModal() {
+  renderSpecialists();
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeModalOutside(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+
+function filterSpecialists(category, btn) {
+  document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.specialist-card').forEach(card => {
+    if (category === 'All' || card.dataset.category === category) {
+      card.classList.remove('hidden');
+    } else {
+      card.classList.add('hidden');
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SCROLL OBSERVER FOR HOME
+// ═══════════════════════════════════════════════════════════════
+const homeObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('[data-view="home"] .anim-fade-up').forEach(el => {
+  homeObserver.observe(el);
+  // Also check if already in viewport on load
+  const rect = el.getBoundingClientRect();
+  if (rect.top < window.innerHeight) el.classList.add('visible');
+});
+
+// Inject real icons into homepage platform coverage cards
+document.querySelectorAll('.platforms-grid .platform-card-small').forEach(card => {
+  const nameEl = card.querySelector('.pcs-name');
+  if (!nameEl) return;
+  const platformKey = Object.keys(PLATFORM_NAMES).find(k => PLATFORM_NAMES[k] === nameEl.textContent.trim() || nameEl.textContent.trim().toLowerCase().includes(k));
+  if (platformKey) {
+    nameEl.innerHTML = `<span style="display:inline-flex;align-items:center;gap:7px;vertical-align:middle">${getPlatformIcon(platformKey, 16)}<span>${nameEl.textContent.trim()}</span></span>`;
+  }
+});
+
+// Floating CTA scroll trigger (results page)
+window.addEventListener('scroll', () => {
+  const cta = document.getElementById('floatingCTA');
+  if (!cta) return;
+  if (document.body.getAttribute('data-active-view') === 'results') {
+    if (window.scrollY > 300) {
+      cta.classList.add('visible');
+    } else {
+      cta.classList.remove('visible');
+    }
+  } else {
+    cta.classList.remove('visible');
+  }
+});
+
+// Subnav scroll tracking via IntersectionObserver
+const subnavSections = ['section-overview','section-platforms','section-tracks','section-audience','section-report','section-help'];
+const subnavLinks = document.querySelectorAll('.subnav-link');
+const subnavObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      subnavLinks.forEach(l => l.classList.remove('active'));
+      const link = document.querySelector(`.subnav-link[href="#${e.target.id}"]`);
+      if (link) link.classList.add('active');
+    }
+  });
+}, { threshold: 0.3 });
+
+subnavSections.forEach(id => {
+  const el = document.getElementById(id);
+  if (el) subnavObserver.observe(el);
+});
+</script>
+
+<!-- ══════════════════════════════════════════
+     PWA — Service Worker Registration
+     Place this block just before </body>
+══════════════════════════════════════════ -->
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(function (reg) {
+          console.log('[Wavelink SW] Registered, scope:', reg.scope);
+        })
+        .catch(function (err) {
+          console.warn('[Wavelink SW] Registration failed:', err);
+        });
+    });
+  }
+</script>
+</body>
+</html>

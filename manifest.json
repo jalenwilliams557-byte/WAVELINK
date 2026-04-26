@@ -1,0 +1,50 @@
+{
+  "name": "Wavelink — Artist Intelligence Platform",
+  "short_name": "Wavelink",
+  "description": "See where your music audience lives across every streaming platform in one instant report.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F5F0E8",
+  "theme_color": "#C84B31",
+  "lang": "en",
+  "categories": ["music", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Wavelink Artist Intelligence Dashboard"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analyze an Artist",
+      "short_name": "Analyze",
+      "description": "Paste an artist link and get an instant report",
+      "url": "/#searchInput",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
